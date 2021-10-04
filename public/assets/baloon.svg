@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(-666 -1274) translate(666 1274)">
+                <text fill="#0FBDDF" font-family="Roboto-Regular, Roboto" font-size="10">
+                    <tspan x="6" y="11">!</tspan>
+                </text>
+                <circle cx="7.5" cy="7.5" r="7" stroke="#0FBDDF"/>
+            </g>
+        </g>
+    </g>
+</svg>

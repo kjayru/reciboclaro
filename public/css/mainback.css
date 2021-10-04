@@ -1,0 +1,59 @@
+div.draggable {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px sienna solid;
+    background: rgba(250, 0, 0, 0.8);
+    color: white;
+    font-weight: bold;
+    z-index: 100;
+}
+
+div.draggable2 {
+    width: 60px;
+    height: 60px;
+    border: 1px rgb(229, 255, 220) solid;
+    background: rgba(71, 232, 103, 0.8);
+    color: white;
+    font-weight: bold;
+    z-index: 10;
+}
+
+div.canvas {
+    min-height: 600px;
+    position: relative;
+    overflow: hidden;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.canvas p {
+    text-align: center;
+    margin: 9px;
+}
+
+.box-image {
+    background: #eee;
+    width: 42px;
+    display: block;
+    padding: 10px;
+    text-align: center
+}
+
+.app-container .content-container .side-menu .navbar-header .navbar-brand img {
+    width: 49px;
+    height: 18px;
+    position: relative;
+    top: -1px;
+    display: inline-block;
+}
+a.borrar-punto, a.borrar-capa {
+    display: inline-block;
+    position: absolute;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    padding: 3px 6px 0 5px;
+    top: -21px;
+    left: -14px;
+}

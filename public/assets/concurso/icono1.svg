@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="87" height="87" viewBox="0 0 87 87">
+    <defs>
+        <path id="a" d="M0 0h29.508v49.18H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+        <circle cx="42.5" cy="42.5" r="42.5" fill="#DA272C" stroke="#DA272C" stroke-width="2"/>
+        <g transform="translate(27.41 18.41)">
+            <mask id="b" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <path fill="#FFF" d="M24.605 47.666H4.903c-1.807 0-3.264-1.487-3.264-3.27v-4.708h26.23v4.709c0 1.782-1.456 3.269-3.264 3.269zM4.903 1.616h19.702c1.808 0 3.264 1.487 3.264 3.269v3.093H1.639V4.885c0-1.782 1.457-3.27 3.264-3.27zM1.64 38.072h26.23V9.594H1.639v28.478zM29.51 4.847C29.508 2.17 27.305 0 24.59 0H4.918C2.202 0 0 2.17 0 4.847v39.486c0 2.677 2.202 4.847 4.918 4.847H24.59c2.716 0 4.918-2.17 4.918-4.847V4.847z" mask="url(#b)"/>
+        </g>
+        <path fill="#FFF" d="M38.795 23.706h6.738c.438 0 .792-.339.792-.756 0-.418-.354-.757-.792-.757h-6.738c-.438 0-.792.339-.792.757 0 .417.354.756.792.756M42.542 62.89a1.354 1.354 0 1 1 0-2.706 1.354 1.354 0 0 1 0 2.707m0-4.38a3.026 3.026 0 1 0 0 6.053 3.026 3.026 0 0 0 0-6.053"/>
+        <g fill="#FFF" transform="matrix(-1 0 0 1 50.36 31.525)">
+            <circle cx="11.066" cy="4.508" r="4.508"/>
+            <circle cx="3.279" cy="10.656" r="3.279"/>
+            <circle cx="8.197" cy="18.443" r="2.459"/>
+        </g>
+        <text fill="#DA272C" font-family="Roboto-Regular, Roboto" font-size="11" transform="translate(27 18)">
+            <tspan x="9.426" y="19.623">+</tspan>
+        </text>
+        <text fill="#DA272C" font-family="Roboto-Regular, Roboto" font-size="9" transform="translate(27 18)">
+            <tspan x="17.623" y="26.09">+</tspan>
+        </text>
+        <text fill="#DA272C" font-family="Roboto-Regular, Roboto" font-size="7" transform="translate(27 18)">
+            <tspan x="12.934" y="33.377">+</tspan>
+        </text>
+    </g>
+</svg>

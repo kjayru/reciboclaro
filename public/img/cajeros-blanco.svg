@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="59px" viewBox="0 0 57 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group 14 Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-47.000000, -74.000000)">
+            <g id="Group-14-Copy-2" transform="translate(47.000000, 74.000000)">
+                <rect id="Rectangle" stroke="#FFFFFF" stroke-width="2" x="1" y="1" width="55" height="57" rx="1"></rect>
+                <rect id="Rectangle-Copy-7" stroke="#FFFFFF" stroke-width="2" x="30" y="33" width="19" height="5" rx="1"></rect>
+                <rect id="Rectangle-Copy-8" stroke="#FFFFFF" stroke-width="2" fill="#F58520" x="33" y="36" width="13" height="12" rx="1"></rect>
+                <g id="Group-12" transform="translate(6.000000, 36.000000)" stroke="#FFFFFF" stroke-width="2">
+                    <rect id="Rectangle-Copy-9" x="1" y="1" width="4.8" height="4.73684211" rx="1"></rect>
+                    <rect id="Rectangle-Copy-11" x="1" y="10.2631579" width="4.8" height="4.73684211" rx="1"></rect>
+                    <rect id="Rectangle-Copy-10" x="11.2" y="1" width="4.8" height="4.73684211" rx="1"></rect>
+                    <rect id="Rectangle-Copy-12" x="11.2" y="10.2631579" width="4.8" height="4.73684211" rx="1"></rect>
+                </g>
+                <rect id="Rectangle-Copy-6" stroke="#FFFFFF" stroke-width="2" fill="#1DBDDF" x="7" y="7" width="42" height="21" rx="1"></rect>
+                <text id="ATM" font-family="Roboto-Black, Roboto" font-size="12" font-weight="700" fill="#FFFFFF">
+                    <tspan x="15.7236328" y="22">ATM</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
