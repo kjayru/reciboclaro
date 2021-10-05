@@ -424,6 +424,17 @@ cargo con éxito. El importe máximo a devolver S/ 30*.</small>
                 </div>    
               </div>
 
+              <!--logo Visa-->
+              <div class="content__group">
+                <div class="content__item">
+                  <figure><img src="/assets/logo-visa.png"/></figure>
+                  <hgroup>
+                    <h3>Solicita tu afiliación para servicios:</h3>
+                  </hgroup>
+                  <div class="link"><a href="https://pago-programado.niubiz.com.pe/Afiliacion" target="_blank">Afíliate aquí</a></div>
+                </div>    
+              </div>
+
                <!--logo mastercard-->
               <div class="content__group">
                   <div class="content__item">
@@ -593,7 +604,7 @@ cargo con éxito. El importe máximo a devolver S/ 30*.</small>
                    <a href="https://static.claro.com.pe/img/otros/TyCDebitoautomaticogiftcardsVISA.pdf" target="_blank">aquí</a> 
                 </li> --}}
                 <li>
-                  Términos y condiciones sobre débito automático con tarjeta Ripley. Más información <a href="https://static.claro.com.pe/img/otros/TYCRIPLEYSET.pdf" target="_blank">aquí</a>
+                  Términos y condiciones sobre débito automático con tarjeta Ripley. Más información <a href="https://static.claro.com.pe/img/otros/TYCRIPLEY0510.pdf" target="_blank">aquí</a>
                 </li>
 
 
