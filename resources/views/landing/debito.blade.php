@@ -431,7 +431,7 @@ cargo con éxito. El importe máximo a devolver S/ 30*.</small>
                   <hgroup>
                     <h3>Solicita tu afiliación para servicios:</h3>
                   </hgroup>
-                  <div class="link"><a href="https://www.visanetrecurrentes.com/afiliacion/formulario-afiliacion?codigoComercio=467534256" target="_blank">Afíliate aquí</a></div>
+                  <div class="link"><a href="https://pago-programado.niubiz.com.pe/Afiliacion" target="_blank">Afíliate aquí</a></div>
                 </div>    
               </div>
 
