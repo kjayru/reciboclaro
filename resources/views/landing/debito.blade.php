@@ -493,6 +493,17 @@ cargo con éxito. El importe máximo a devolver S/ 30*.</small>
                   </div>
               </div>
 
+              <!--logo bbva-->
+              <div class="content__group">
+                <div class="content__item">
+                  <figure><img src="/assets/bbva.png"/></figure>
+                  <hgroup>
+                    <h3>Solicita tu afiliación para servicios:</h3>
+                  </hgroup>
+                  <div class="link"><a href="https://pago-programado.niubiz.com.pe/Afiliacion" target="_blank">Afíliate aquí</a></div>
+                </div>
+            </div>
+
             <!--logo oh-->
               {{-- <div class="content__group">              
                   <div class="content__item">
