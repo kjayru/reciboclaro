@@ -113,22 +113,22 @@
                   <div class="item__list">
                     <div class="item">
                       <div class="item__prin">
-                        <div class="item__brand"><a href="http://conoceturecibo.com/"> <img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/21800919-bc3a-466f-9663-637d8e04becd-Blanco.svg" alt=""></a></div>
+                        <div class="item__brand"><a href="/"> <img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/21800919-bc3a-466f-9663-637d8e04becd-Blanco.svg" alt=""></a></div>
                         <div class="item__menu">
                           <ul>
                             <li class="desktopmenu movil">¿Qué necesitas saber?
                               <ul class="datos_movil">
-                                <li><a href="http://conoceturecibo.com/como-leer-tu-recibo-movil" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image1.svg" alt="">
+                                <li><a href="/como-leer-tu-recibo-movil" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image1.svg" alt="">
                                     <p>¿Cómo leer tu recibo móvil?</p></a></li>
-                                <li><a href="http://conoceturecibo.com/lugares-de-pago" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image2.svg" alt="">
+                                <li><a href="/lugares-de-pago" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image2.svg" alt="">
                                     <p>Lugares y medios de pago</p></a></li>
-                                <li><a href="http://conoceturecibo.com/lugares-de-pago/debito-automatico" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image3.svg" alt="">
+                                <li><a href="/lugares-de-pago/debito-automatico" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image3.svg" alt="">
                                     <p>Afíliate al débito automático</p></a></li>
-                                <li><a href="http://conoceturecibo.com/dudas-sobre-tu-facturacion" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image4.svg" alt="">
+                                <li><a href="/dudas-sobre-tu-facturacion" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image4.svg" alt="">
                                     <p>¿Problemas con tu facturación?</p></a></li>
-                                <li><a href="http://conoceturecibo.com/glosario-de-facturacion" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image5.svg" alt="">
+                                <li><a href="/glosario-de-facturacion" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image5.svg" alt="">
                                     <p>Glosario </p></a></li>
-                                <li><a href="http://conoceturecibo.com/dudas-y-preguntas-frecuentes" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image6.svg" alt="">
+                                <li><a href="/dudas-y-preguntas-frecuentes" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image6.svg" alt="">
                                     <p>Dudas y preguntas frecuentes</p></a></li>
                               </ul>
                             </li>
@@ -151,12 +151,12 @@
                           <p><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/d24dcece-79fa-4f32-81fb-24aa60efcc3a-Movil.svg" alt="">  ¿Qué necesitas saber? </p>
                           <div class="detail">
                             <ul> 
-                              <li><a href="http://conoceturecibo.com/como-leer-tu-recibo-movil" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image1.svg" alt=""> ¿Cómo leer tu recibo móvil?</a></li>
-                              <li><a href="http://conoceturecibo.com/lugares-de-pago" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image2.svg" alt=""> Lugares y medios de pago</a></li>
-                              <li><a href="http://conoceturecibo.com/lugares-de-pago/debito-automatico" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image3.svg" alt=""> Afíliate al débito automático</a></li>
-                              <li><a href="http://conoceturecibo.com/dudas-sobre-tu-facturacion" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image4.svg" alt="">  ¿Problemas con tu facturación?</a></li>
-                              <li><a href="http://conoceturecibo.com/glosario-de-facturacion" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image5.svg" alt=""> Glosario </a></li>
-                              <li><a href="http://conoceturecibo.com/dudas-y-preguntas-frecuentes" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image6.svg" alt=""> Dudas y preguntas frecuentes</a></li>
+                              <li><a href="/como-leer-tu-recibo-movil" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image1.svg" alt=""> ¿Cómo leer tu recibo móvil?</a></li>
+                              <li><a href="/lugares-de-pago" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image2.svg" alt=""> Lugares y medios de pago</a></li>
+                              <li><a href="/lugares-de-pago/debito-automatico" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image3.svg" alt=""> Afíliate al débito automático</a></li>
+                              <li><a href="/dudas-sobre-tu-facturacion" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image4.svg" alt="">  ¿Problemas con tu facturación?</a></li>
+                              <li><a href="/glosario-de-facturacion" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image5.svg" alt=""> Glosario </a></li>
+                              <li><a href="/dudas-y-preguntas-frecuentes" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image6.svg" alt=""> Dudas y preguntas frecuentes</a></li>
                             </ul>
                           </div>
                         </li>

@@ -41,8 +41,6 @@ Route::get('/lugares-de-pago-empresas/banca-digital','LugaresController@digitale
 Route::get('/lugares-de-pago/debito-automatico-test-ruta','LugaresController@debitonew');
 
 
-
-
 Route::get('/lugares-de-pago/debito-automatico','LugaresController@debito');
 Route::get('/lugares-de-pago/banco-digital','LugaresController@digital');
 
@@ -51,6 +49,12 @@ Route::get('/lugares-de-pago/Pagos-digitales/{slug}','LugaresController@show');
 Route::get('/lugares-de-pago/Pagos-digitales/','LugaresController@index');
 Route::get('/lugares-de-pago/{slug}','LugaresController@bancos');
 
+
+Route::get('/dudas-sobre-tu-facturacion/{cat?}/{subcat?}/{subsubcat?}/{ssubsubcat?}/{sssubsubcat?}/{ssssubsubcat?}','PageLoaderController@index', function ($cat,$subcat,$subcat1,$subcat2,$subcat3,$subcat4) {
+
+
+
+});
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

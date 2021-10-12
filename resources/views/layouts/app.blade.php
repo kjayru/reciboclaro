@@ -198,17 +198,17 @@
                           <ul>
                             <li class="desktopmenu movil">¿Qué necesitas saber?
                               <ul class="datos_movil">
-                                <li><a href="http://conoceturecibo.com/como-leer-tu-recibo-movil" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image1.svg" alt="">
+                                <li><a href="/como-leer-tu-recibo-movil" ><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image1.svg" alt="">
                                     <p>¿Cómo leer tu recibo móvil?</p></a></li>
-                                <li><a href="http://conoceturecibo.com/lugares-de-pago" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image2.svg" alt="">
+                                <li><a href="/lugares-de-pago" ><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image2.svg" alt="">
                                     <p>Lugares y medios de pago</p></a></li>
-                                <li><a href="http://conoceturecibo.com/lugares-de-pago/debito-automatico" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image3.svg" alt="">
+                                <li><a href="/lugares-de-pago/debito-automatico" ><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image3.svg" alt="">
                                     <p>Afíliate al débito automático</p></a></li>
-                                <li><a href="http://conoceturecibo.com/dudas-sobre-tu-facturacion" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image4.svg" alt="">
+                                <li><a href="/dudas-sobre-tu-facturacion" ><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image4.svg" alt="">
                                     <p>¿Problemas con tu facturación?</p></a></li>
-                                <li><a href="http://conoceturecibo.com/glosario-de-facturacion" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image5.svg" alt="">
+                                <li><a href="/glosario-de-facturacion" ><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image5.svg" alt="">
                                     <p>Glosario </p></a></li>
-                                <li><a href="http://conoceturecibo.com/dudas-y-preguntas-frecuentes" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image6.svg" alt="">
+                                <li><a href="/dudas-y-preguntas-frecuentes" ><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image6.svg" alt="">
                                     <p>Dudas y preguntas frecuentes</p></a></li>
                               </ul>
                             </li>
@@ -231,12 +231,12 @@
                           <p><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/d24dcece-79fa-4f32-81fb-24aa60efcc3a-Movil.svg" alt="">  ¿Qué necesitas saber? </p>
                           <div class="detail">
                             <ul> 
-                              <li><a href="http://conoceturecibo.com/como-leer-tu-recibo-movil" target="_blank">¿Cómo leer tu recibo móvil?</a></li>
-                              <li><a href="http://conoceturecibo.com/lugares-de-pago" target="_blank">Lugares y medios de pago</a></li>
-                              <li><a href="http://conoceturecibo.com/lugares-de-pago/debito-automatico" target="_blank">Afíliate al débito automático</a></li>
-                              <li><a href="http://conoceturecibo.com/dudas-sobre-tu-facturacion" target="_blank">¿Problemas con tu facturación?</a></li>
-                              <li><a href="http://conoceturecibo.com/glosario-de-facturacion" target="_blank">Glosario </a></li>
-                              <li><a href="http://conoceturecibo.com/dudas-y-preguntas-frecuentes" target="_blank">Dudas y preguntas frecuentes</a></li>
+                              <li><a href="/como-leer-tu-recibo-movil" >¿Cómo leer tu recibo móvil?</a></li>
+                              <li><a href="/lugares-de-pago" >Lugares y medios de pago</a></li>
+                              <li><a href="/lugares-de-pago/debito-automatico" >Afíliate al débito automático</a></li>
+                              <li><a href="/dudas-sobre-tu-facturacion" >¿Problemas con tu facturación?</a></li>
+                              <li><a href="/glosario-de-facturacion" >Glosario </a></li>
+                              <li><a href="/dudas-y-preguntas-frecuentes" >Dudas y preguntas frecuentes</a></li>
                             </ul>
                           </div>
                         </li>
