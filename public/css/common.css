@@ -5887,6 +5887,14 @@ html.fp-enabled,
      text-align: center;
 }
 
+.section_linepost__main p a{
+     color: #2197ae;
+}
+
+.section_linepost__main p a:hover{
+     color: #2197ae;
+}
+
 .section_linepost__main .box {
      text-align: center;
      padding: 20px 20px;
