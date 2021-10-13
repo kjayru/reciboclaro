@@ -5893,6 +5893,7 @@ html.fp-enabled,
 
 .section_linepost__main p a:hover{
      color: #2197ae;
+     text-emphasis: underline;
 }
 
 .section_linepost__main .box {
