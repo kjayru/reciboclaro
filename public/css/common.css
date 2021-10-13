@@ -5870,7 +5870,7 @@ html.fp-enabled,
 
 .section_linepost__main {
      width: 100%;
-     max-width: 950px;
+     max-width: 1160px;
      margin: 0 auto;
      padding: 40px 0;
      text-align: center;
@@ -5883,7 +5883,7 @@ html.fp-enabled,
 }
 
 .section_linepost__main p {
-     font: normal 300 1em "Roboto";
+     font: normal 300 0.9em "Roboto";
      text-align: center;
 }
 
@@ -5896,7 +5896,7 @@ html.fp-enabled,
      position: relative;
      display: inline-block;
      vertical-align: top;
-     max-width: 380px;
+     max-width: 330px;
      /*width: 100%;*/
      padding: 20px;
      border: solid 1px #da252c;

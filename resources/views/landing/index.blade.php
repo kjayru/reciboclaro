@@ -55,11 +55,15 @@
           <div class="box">
             <div class="item">
               <span class="num">1</span>
-              <p><strong>Al inicio de tu ciclo  mensual se renovará el saldo</strong> de tu plan con minutos, megas, SMS y otros beneficios.</p>
+              <p><strong>Se emitirá tu recibo</strong> y tendrás hasta unos días después para pagarlo.</p>
             </div>
             <div class="item">
               <span class="num">2</span>
-              <p><strong>Se emitirá tu recibo</strong> y tendrás hasta unos días después para pagarlo.</p>
+              <p><strong>Al inicio de tu ciclo  mensual se renovará el saldo</strong> de tu plan con minutos, megas, SMS y otros beneficios.</p>
+            </div>
+            <div class="item">
+              <span class="num">3</span>
+              <p><strong>Regístrate GRATIS al Recibo Digital.</strong> Sé parte del cambio y ayúdanos a cuidar el planeta. Te enviaremos mensualmente tu recibo a tu correo. Afíliate <a href="https://conoceturecibo.com/que-es-el-recibo-por-email" target="_blank">aquí</a> </p>
             </div>
           </div>
           <!--
