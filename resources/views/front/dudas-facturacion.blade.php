@@ -57,21 +57,37 @@
 					<div class="facturation__content">
 					  <div class="facturation__list">
 						<ul>
+							{{dd($categorias)}}
 						@foreach ($categorias as $key => $cat)
-						@if($key==0)
+						
 						  <li data-id="{{ $key }}">
-							<h3 class="links"><a>{{$cat->name}}<span></span></a></h3>
-							<div>
-								@foreach($subcategorias as $sub)
-								<a href="{{ $path }}/{{$pathslug}}/{{$sub->slug}}">{{ $sub->name }}</a>
-								@endforeach
-							</div>
+						  	<dl>
+							    <dt>
+
+										<h3 class="links"><a>{{$cat->name}}<span></span></a></h3>
+										
+										<div>
+											<!--<h4>Resuelve tus dudas con este video explicativo</h4>-->
+											
+											<h4>Otras razones</h4>
+											
+
+											{{ $cat->subCategory}}
+
+
+
+										</div>
+									</dt>
+									<dd>
+										<h4>Video explicativo</h4>
+										<a class="btnVideo" youtubeid="zRWqpMAhS14"><img src="../img/play_video2.png"></a>
+										<blockquote>
+											<iframe width="560" height="315" src="https://www.youtube.com/embed/zRWqpMAhS14" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										</blockquote>
+									</dd>
+								</dl>
 						  </li>
-						@else
-						  <li>
-							<h3><a href="{{ $path }}/{{$cat->slug}}">{{$cat->name}}<span></span></a></h3>
-						  </li>
-						@endif
+						
 						@endforeach
 						</ul>
 					</div>
@@ -84,6 +100,9 @@
 		</div>
 
 	</div>
+
+	<link rel="stylesheet" href="/css/grt-youtube-popup.css">
+	<script type="text/javascript" src="/js/change-text.js"></script>
 
 </section>
 				
