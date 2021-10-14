@@ -515,7 +515,20 @@ cargo con éxito. El importe máximo a devolver S/ 30*.</small>
                   <hgroup>
                     <h3>Solicita tu afiliación para servicios:</h3>
                   </hgroup>
-                  <div class="link"><a href="https://pago-programado.niubiz.com.pe/Afiliacion" target="_blank">Afíliate aquí</a></div>
+                  <div class="link">
+                    <span href="https://pago-programado.niubiz.com.pe/Afiliacion" target="_blank">Afíliate aquí</span>
+
+                    <form method="post" action="https://pago-programado.niubiz.com.pe/Afiliacion" target="_blank">
+                      <input type="hidden" id="codigoComercio" name="codigoComercio" maxlength="9" required value="467534256" />
+                      <input type="hidden" id="etiqueta" name="etiqueta" required value="Número de Servicio/Cod. Cliente"/> 
+                      <input type="hidden" id="maxAmount" name="maxAmount" value="Si">
+                      <!--<select id="productos" name="productos">
+                        <option value="">Seleccione</option>
+                        <option value="0012020">PRUEBA VISANET</option> 
+                      </select>-->
+                      <input type="submit" value="Afiliarse">
+                    </form>
+                  </div>
                 </div>
             </div>
 
