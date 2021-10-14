@@ -50,11 +50,7 @@ Route::get('/lugares-de-pago/Pagos-digitales/','LugaresController@index');
 Route::get('/lugares-de-pago/{slug}','LugaresController@bancos');
 
 
-Route::get('/dudas-sobre-tu-facturacion/{cat?}/{subcat?}/{subsubcat?}/{ssubsubcat?}/{sssubsubcat?}/{ssssubsubcat?}','PageLoaderController@index', function ($cat,$subcat,$subcat1,$subcat2,$subcat3,$subcat4) {
-
-
-
-});
+//Route::get('/dudas-sobre-tu-facturacion/{cat?}/{subcat?}/{subsubcat?}/{ssubsubcat?}/{sssubsubcat?}/{ssssubsubcat?}','PageLoaderController@index', function ($cat,$subcat,$subcat1,$subcat2,$subcat3,$subcat4){});
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
