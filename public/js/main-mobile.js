@@ -657,3 +657,27 @@ box2.addEventListener("click", function() {
   window.location.href = url;
 });
 }
+
+var facturation = Array.apply(
+  null,
+  document.querySelectorAll(".facturation__list ul li h3.links")
+);
+facturation.filter(function (element, index) {
+  element.addEventListener("click", function (event) {
+    var buttonClass = this.parentNode.parentNode.parentNode.classList;
+
+    if (buttonClass.contains("active")) {
+      buttonClass.remove("active");
+    } else {
+      buttonClass.add("active");
+    }
+
+    var panel = this.nextElementSibling;
+
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+});
