@@ -101,7 +101,9 @@
 										</dt>
 										@if(isset($cat->video))
 										<dd>
+											@if($key==0)
 											<h4>Video explicativo</h4>
+											@endif
 											<a class="btnVideo" youtubeid="{{$cat->video}}"><img src="../img/{{$cat->thumb}}"></a>
 											<blockquote>
 												<iframe width="560" height="315" src="https://www.youtube.com/embed/{{$cat->video}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
