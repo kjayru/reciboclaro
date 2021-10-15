@@ -2446,7 +2446,7 @@ ul.new-type {
 
 
 .image-height{
-  width: auto
+  width: auto;
   height: 25px !important;
 }
 .banco__item a strong {
@@ -2848,6 +2848,9 @@ ul.new-type {
 .hoja2,
 .hoja3,
 .recibo--mobile {
+  display: none;
+}
+.hoja{
   display: none;
 }
 @media screen and (max-width: 950px) {
@@ -4059,4 +4062,21 @@ ul.new-type {
   border:solid 1px #fff;
   border-radius: 50%;
   padding: 10px;
+  }
+  .act{
+    display:block!important;
+  }
+
+  ul.facturacion__lista_contenido {
+    padding-left: 40px;
+  }
+  .facturacion__lista_contenido li{
+    position: relative;
+  }
+  .facturacion__lista_contenido li:before{
+    content:"-";
+    width:40px;
+    height: 40px;
+    position: absolute;
+    left:-11px;
   }

@@ -495,16 +495,25 @@ $(document).on("ready", function() {
   );
 
   $(".dominaturecibo__opciones a").on("click", function(event) {
-    // event.preventDefault();
-    var t = $(this).attr("href"),
-      t = t.toString().replace("#", ".");
+     event.preventDefault();
+    /*var t = $(this).attr("href"),
+      t = t.toString().replace("#", ".");*/
+    let page = $(this).data('page');
+    let pagina = "#hoja" + page;
+     let mpagina = "#mhoja" + page;
+
     $(".dominaturecibo__opciones a").removeClass("act");
     $(this).addClass("act");
-    $(".hoja.act").fadeOut(250, function() {
-      $(".hoja.act").removeClass("act");
-      $(t).addClass("act");
-      $(t).fadeIn(350);
-    });
+    $(".hoja").removeClass("act");
+     console.log(pagina);
+    $(pagina).addClass("act");
+    $(mpagina).addClass("act");
+   /* $(".hoja").fadeOut(250, function() {
+      $('.hoja').removeClass("act");
+      console.log(pagina);
+      $(pagina).addClass("act");
+      $(pagina).fadeIn(350);
+    });*/
   });
 
   $(".videoClickFull").on("click", function() {
@@ -719,18 +728,6 @@ $(document).ready(function() {
   });
 });
 
-/*
-
-var menuBoton = true;
-$("#nav , #navM").on("click", function() {
-  //$(this).toggleClass('actitve')
-  menuBoton
-    ? ($("#menuContenedor").fadeIn(350),
-      (menuBoton = false),
-      $(this).addClass("act"))
-    : ($("#menuContenedor").fadeOut(200),
-      (menuBoton = true),
-      $(this).removeClass("act"));
+$(".facturacion__item__link").on('click', function (e){
+  e.preventDefault();
 });
-
-*/

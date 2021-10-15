@@ -50,28 +50,24 @@
                 </ul>
                
             @foreach($invoices as $key => $invoice) 
-              @if($invoice->mobile==0)
-                <div class="hoja hoja{{ $key + 1}} act">
-                    <div class="dominaturecibo__contenido">
-                        <div class="dominaturecibo__recibo recibo--web">
-                                <img class="dominaturecibo__recibo__imagen" src="/storage/{{ $invoice->imagen }}" alt="">
-                                @foreach($invoice->positions as $k => $pos)
-                                <div class="dominaturecibo__recibo__puntos punto-anime" style="top:{{ $pos->laty }}px; left:{{ $pos->latx }}px;">
-                                    <strong class="dominaturecibo__recibo__puntos--abrir act">{{ $pos->order }}</strong>
-                                    <strong class="dominaturecibo__recibo__puntos--cerrar">x</strong>
-                                    <article class="dominaturecibo__recibo__puntos__contenido">
-                                    {!! $pos->descripcion !!}
-                                    </article>
-                                </div>
-                                @endforeach
-                                
-                               
-                        </div>
-                        
+                @if($invoice->mobile==0)
+                    <div class="hoja hoja{{ $key + 1}} act">
+                        <div class="dominaturecibo__contenido">
+                            <div class="dominaturecibo__recibo recibo--web">
+                                    <img class="dominaturecibo__recibo__imagen" src="/storage/{{ $invoice->imagen }}" alt="">
+                                    @foreach($invoice->positions as $k => $pos)
+                                    <div class="dominaturecibo__recibo__puntos punto-anime" style="top:{{ $pos->laty }}px; left:{{ $pos->latx }}px;">
+                                        <strong class="dominaturecibo__recibo__puntos--abrir act">{{ $pos->order }}</strong>
+                                        <strong class="dominaturecibo__recibo__puntos--cerrar">x</strong>
+                                        <article class="dominaturecibo__recibo__puntos__contenido">
+                                        {!! $pos->descripcion !!}
+                                        </article>
+                                    </div>
+                                    @endforeach
+                            </div>                 
+                        </div>                  
                     </div>
-                   
-                </div>
-              @endif
+                @endif
              @endforeach
             <!--mobile seccion -->
             @foreach($invoices as $key => $invoice) 

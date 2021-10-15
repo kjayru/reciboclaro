@@ -17,5 +17,8 @@ class Invoice extends Model
         return $this->hasMany('App\InvoiceItem');
     }
 
+    public function quiz(){
+        return belongsTo(Quiz::class,'category_id','id');
+    }
     
 }
