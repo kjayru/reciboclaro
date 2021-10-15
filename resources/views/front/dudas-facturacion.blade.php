@@ -53,7 +53,9 @@
 										</dt>
 										@if(isset($cat->video))
 										<dd>
+											@if($key==0)
 											<h4>Video explicativo</h4>
+											@endif
 											<a class="btnVideo" youtubeid="{{$cat->video}}"><img src="../img/play_video2.png"></a>
 											<blockquote>
 												<iframe width="560" height="315" src="https://www.youtube.com/embed/{{$cat->video}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -64,6 +66,7 @@
 							</li>
 							
 							@elseif(isset($cat->contenido) && count($cat->parent)==0)
+
 							<li class="contenido">
 									<dl>
 										<dt>
@@ -77,7 +80,9 @@
 										</dt>
 										@if(isset($cat->video))
 										<dd>
+											@if($key==0)
 											<h4>Video explicativo</h4>
+											@endif
 											<a class="btnVideo" youtubeid="{{$cat->video}}"><img src="../img/{{$cat->thumb}}"></a>
 											<blockquote>
 												<iframe width="560" height="315" src="https://www.youtube.com/embed/{{$cat->video}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -86,6 +91,7 @@
 										@endif
 									</dl>
 							</li>
+							
 							@elseif(count($cat->parent)==0 && !isset($cat->contenido))
 
 							<li class="no-exist">
