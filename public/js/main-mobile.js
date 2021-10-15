@@ -658,6 +658,9 @@ box2.addEventListener("click", function() {
 });
 }
 
+$(".facturation__list ul li h3.links").on('click', function (e) {
+    e.preventDefault();
+})
 var facturation = Array.apply(
   null,
   document.querySelectorAll(".facturation__list ul li h3.links")
@@ -681,3 +684,4 @@ facturation.filter(function (element, index) {
     }
   });
 });
+
