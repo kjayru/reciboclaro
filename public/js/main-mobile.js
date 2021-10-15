@@ -431,7 +431,7 @@ $(document).on('ready', function() {
         });
 
 
-    $('.dominaturecibo__opciones a').on('click', function(event) {
+    /*$('.dominaturecibo__opciones a').on('click', function(event) {
         event.preventDefault();
         var t = $(this).attr('href'),
             t = t.toString().replace('#', '.');
@@ -442,6 +442,28 @@ $(document).on('ready', function() {
             $(t).addClass('act');
             $(t).fadeIn(350);
         });
+    });*/
+
+    $(".dominaturecibo__opciones a").on("click", function (event) {
+      event.preventDefault();
+      /*var t = $(this).attr("href"),
+      t = t.toString().replace("#", ".");*/
+      let page = $(this).data("page");
+      let pagina = "#hoja" + page;
+      let mpagina = "#mhoja" + page;
+
+      $(".dominaturecibo__opciones a").removeClass("act");
+      $(this).addClass("act");
+      $(".hoja").removeClass("act");
+      console.log(pagina);
+      $(pagina).addClass("act");
+      $(mpagina).addClass("act");
+      /* $(".hoja").fadeOut(250, function() {
+      $('.hoja').removeClass("act");
+      console.log(pagina);
+      $(pagina).addClass("act");
+      $(pagina).fadeIn(350);
+    });*/
     });
 
     $('.videoClickFull').on('click', function() {
