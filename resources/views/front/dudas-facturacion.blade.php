@@ -78,7 +78,7 @@
 										@if(isset($cat->video))
 										<dd>
 											<h4>Video explicativo</h4>
-											<a class="btnVideo" youtubeid="{{$cat->video}}"><img src="../img/play_video2.png"></a>
+											<a class="btnVideo" youtubeid="{{$cat->video}}"><img src="../img/{{$cat->thumb}}"></a>
 											<blockquote>
 												<iframe width="560" height="315" src="https://www.youtube.com/embed/{{$cat->video}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 											</blockquote>
@@ -96,7 +96,7 @@
 										@if(isset($cat->video))
 										<dd>
 											<h4>Video explicativo</h4>
-											<a class="btnVideo" youtubeid="{{$cat->video}}"><img src="../img/play_video2.png"></a>
+											<a class="btnVideo" youtubeid="{{$cat->video}}"><img src="../img/{{$cat->thumb}}"></a>
 											<blockquote>
 												<iframe width="560" height="315" src="https://www.youtube.com/embed/{{$cat->video}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 											</blockquote>
