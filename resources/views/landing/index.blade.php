@@ -166,7 +166,34 @@
       </section> -->
 
       
+      <section class="section3">
+        <div class="section3__align">
+          <div class="section3__header">
+            <div class="title">
+              <h2>Nos importa mucho que entiendas tu recibo</h2>
+            </div>
+          </div>
+          <div class="section3__main">
+          <div class="info" style="padding-bottom:  0px;" >
+              <p>Si tienes dudas, te ayudamos a resolverlas</p>
+            </div>
+            <div class="item">
+               <!-- <div class="contenedor_video">
+                <div id="videoprom"></div>
+                <div class="capavideo">
+                  <div class="reload">
+                      <i class="fa fa-refresh" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div> -->
 
+              <span><a href="/dudas-sobre-tu-facturacion">Más información</a></span>
+            </div>
+            
+           
+          </div>
+        </div>
+      </section>
 
 
       <section class="section4">
@@ -240,34 +267,7 @@
         </div>
       </section>
 
-      <section class="section3">
-        <div class="section3__align">
-          <div class="section3__header">
-            <div class="title">
-              <h2>Nos importa mucho que entiendas tu recibo</h2>
-            </div>
-          </div>
-          <div class="section3__main">
-          <div class="info" style="padding-bottom:  0px;" >
-              <p>Si tienes dudas, te ayudamos a resolverlas</p>
-            </div>
-            <div class="item">
-               <!-- <div class="contenedor_video">
-                <div id="videoprom"></div>
-                <div class="capavideo">
-                  <div class="reload">
-                      <i class="fa fa-refresh" aria-hidden="true"></i>
-                  </div>
-                </div>
-              </div> -->
-
-              <span><a href="/dudas-sobre-tu-facturacion">Más información</a></span>
-            </div>
-            
-           
-          </div>
-        </div>
-      </section>
+      
  
       
     </div>
