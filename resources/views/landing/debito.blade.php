@@ -511,6 +511,7 @@ cargo con éxito. El importe máximo a devolver S/ 30*.</small>
               <!--logo bbva-->
               <div class="content__group">
                 <div class="content__item">
+                  <div class="content__item--legal">*A través de Niubiz</div>
                   <figure><img src="/assets/bbva.png"/></figure>
                   <hgroup>
                     <h3>Solicita tu afiliación para servicios:</h3>

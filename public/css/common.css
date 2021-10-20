@@ -8517,6 +8517,17 @@ color: #fff;
      border: 1px solid #2197ae;
 }
 
+.layout__main .page2 .section20__main .content__item .content__item--legal {
+     color: rgb(155, 155, 155);
+     font: normal 400 14px "Roboto";
+     position: absolute;
+     bottom: 5px;
+     left: 0;
+     width: 100%;
+     text-align: center;
+
+}
+
 .layout__main .page2 .section20__main .content__item hgroup {
      padding: 20px 0px 0px;
      display: none;
