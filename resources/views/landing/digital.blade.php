@@ -337,7 +337,7 @@
                                         </div>
                                       </div>
                                     </div>
-                                    <p>Inicia sesión en la App del BANCA MÓVIL BCP registrando tu número de tarjeta y clave de internet. Si aún no la tienes descárgala desde Google Play o App Store.</p>
+                                    <p>Ingresa al menú “Operaciones” y luego da clic en “Pagar servicios”</p>
                                   </figcaption>
                                 </div>
                                 <div class="content__item">
@@ -350,7 +350,7 @@
                                         </div>
                                       </div>
                                     </div>
-                                    <p>En el menú lateral izquierdo, selecciona la opción PAGO DE SERVICIOS. Nuevamente dale clic a PAGO DE SERVICIOS</p>
+                                    <p>Busca el servicio a pagar o el nombre de la empresa.</p>
                                   </figcaption>
                                 </div>
                                 <div class="content__item">
@@ -363,7 +363,7 @@
                                         </div>
                                       </div>
                                     </div>
-                                    <p>Coloca CLARO en el buscador y selecciona CLARO DNI</p>
+                                    <p>Revisa la deuda y elige la cuenta o tarjeta de crédito de origen.</p>
                                   </figcaption>
                                 </div>
                                 <div class="content__item">
@@ -372,11 +372,11 @@
                                     <div class="circle">
                                       <div class="circle__inner">
                                         <div class="circle__wrapper">
-                                          <div class="circle__content">4</div>
+                                          <div class="circle__content">3</div>
                                         </div>
                                       </div>
                                     </div>
-                                    <p>Dale clic a 2 DNI, introduce tu número y dale clic a CONTINUAR.</p>
+                                    <p>Revisa la deuda y elige la cuenta o tarjeta de crédito de origen.</p>
                                   </figcaption>
                                 </div>
                                 <div class="content__item">
@@ -385,11 +385,11 @@
                                     <div class="circle">
                                       <div class="circle__inner">
                                         <div class="circle__wrapper">
-                                          <div class="circle__content">5</div>
+                                          <div class="circle__content">4</div>
                                         </div>
                                       </div>
                                     </div>
-                                    <p>Selecciona el recibo que quieres pagar y elige la cuenta o tarjeta a la cual quieres cargar el pago.</p>
+                                    <p>Revisa tus datos, agrégala a favoritos (no olvides colocar un nombre y confirma la operación).</p>
                                   </figcaption>
                                 </div>
                                 <div class="content__item">
@@ -398,11 +398,11 @@
                                     <div class="circle">
                                       <div class="circle__inner">
                                         <div class="circle__wrapper">
-                                          <div class="circle__content">6</div>
+                                          <div class="circle__content">5</div>
                                         </div>
                                       </div>
                                     </div>
-                                    <p>Confirma tu operación con tu clave token y dale clic a CONTINUAR para obtener tu constancia.</p>
+                                    <p>¡Listo! Ahora podrás ahorrar más tiempo la próxima vez.</p>
                                   </figcaption>
                                 </div>
                               </vue-slick>
