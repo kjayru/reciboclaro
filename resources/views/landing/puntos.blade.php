@@ -226,6 +226,11 @@
                                 <td>S/0.00</td>
                             </tr>
 
+                            <tr>
+                                <td>Red Digital</td>
+                                <td>S/1.00</td>
+                            </tr>
+
                         </table>
                     </div>
                       
