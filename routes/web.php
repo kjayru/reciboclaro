@@ -45,9 +45,13 @@ Route::get('/lugares-de-pago/Pagos-digitales/{slug}','LugaresController@show');
 Route::get('/lugares-de-pago/Pagos-digitales/','LugaresController@index');
 Route::get('/lugares-de-pago/{slug}','LugaresController@bancos');
 
-#Route::get('/dudas-sobre-tu-facturacion','HomeController@index');
-#Route::get('/dudas-sobre-tu-facturacion/{cat}','HomeController@enlaces');
-#Route::get('/dudas-sobre-tu-facturacion/{cat}/{subcat}','HomeController@subenlaces');
+Route::get('/dudas-sobre-tu-facturacion','HomeController@index');
+Route::get('/dudas-sobre-tu-facturacion/{cat}','HomeController@enlaces');
+Route::get('/dudas-sobre-tu-facturacion/{cat}/{subcat}','HomeController@subenlaces');
+
+#Route::get('/dudas-de-tu-facturacion','HomeController@index');
+#Route::get('/dudas-de-tu-facturacion/{cat}','HomeController@enlaces');
+#Route::get('/dudas-tu-facturacion/{cat}/{subcat}','HomeController@subenlaces');
 
 //Route::get('/dudas-sobre-tu-facturacion/{cat?}/{subcat?}/{subsubcat?}/{ssubsubcat?}/{sssubsubcat?}/{ssssubsubcat?}','PageLoaderController@index', function ($cat,$subcat,$subcat1,$subcat2,$subcat3,$subcat4){});
 
