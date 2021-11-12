@@ -18,10 +18,10 @@
         
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="/css/normalize.css">
-        <link rel="stylesheet" href="/css/main.css?v={{ uniqid() }}">
+        <link rel="stylesheet" href="/css/main.css?v=12112021">
        <link rel="stylesheet" href="/css/slick.css">
-        <link rel="stylesheet" href="/css/site.css?v={{ uniqid() }}">
-        <link rel="stylesheet" href="/css/site-mobile.css?v={{ uniqid() }}">
+        <link rel="stylesheet" href="/css/site.css?v=12112021">
+        <link rel="stylesheet" href="/css/site-mobile.css?v=12112021">
         <link rel="stylesheet" href="/css/newdesign.css">
         <link rel="stylesheet" href="/css/pgwmodal.css">
         <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
