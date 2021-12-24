@@ -9076,11 +9076,12 @@ color: #fff;
    }
    
    .layout__main .page2 .section24__main .align__right span {
-     font: normal 300 30px "Roboto";
+     font: normal 300 25px "Roboto";
      color: #FFFFFF;
      display: block;
      text-align: center;
      line-height: 90%;
+     margin-bottom: 20px;
    }
    
    .layout__main .page2 .section24__main .align__right p {
@@ -9097,18 +9098,21 @@ color: #fff;
      -webkit-box-align: center;
      -ms-flex-align: center;
      align-items: center;
+     margin-top: -10px;
    }
    
    .layout__main .page2 .section24__main .align__right p span:nth-child(1) {
      font: normal 600 75px "Roboto";
      color: #FFFFFF;
      margin-right: 25px;
+     margin-bottom: 0;
    }
    .layout__main .page2 .section24__main .align__right p span:nth-child(2) {
-     font: normal 300 24px "Roboto";
+     font: normal 300 20px "Roboto";
      color: #FFFFFF;
      text-align: left;
      line-height: 95.2%;
+     margin-bottom: 0;
    }
    
    .layout__main .page2 .section24__main .align__right h5 {
@@ -9116,6 +9120,7 @@ color: #fff;
      color: #FFFFFF;
      text-align: center;
      line-height: 90%;
+     margin-bottom: 10px;
    }
    
    .layout__main .page2 .section24__main .align__right h5 span {
@@ -9127,13 +9132,13 @@ color: #fff;
    
    @media screen and (max-width: 1025px) {
      .layout__main .page2 .section24__main .align__right span{
-       font-size: 26px;
+       font-size: 20px;
      }
      .layout__main .page2 .section24__main .align__right p span:nth-child(1) {
        font-size: 75px;
      }
      .layout__main .page2 .section24__main .align__right p span:nth-child(2) {
-       font-size: 25px;
+       font-size: 18px;
      }
      .layout__main .page2 .section24__main .align__right h5 {
        font-size: 35px;
@@ -9189,10 +9194,115 @@ color: #fff;
      text-align: justify;
    }
    
+   .layout__main .page2 .section24__footer span {
+     margin-top: 30px;
+     display: block;
+     font: normal 500 16px "Roboto";
+     color: #E42313;
+     text-align: center;
+     position: relative;
+     bottom: 80px;
+   }
+
+   @media screen and (max-width: 480px) {
+     .layout__main .page2 .section24__footer span {
+          bottom: 0;
+     }
+   }
+
    .layout__main .page2 .section24__footer small span{
      font-weight: 600;
      display: block;
    }
+
+     .layout__main .page2 .section25 {
+          padding: 0px 20px 60px;
+     }
+     .layout__main .page2 .section25__header {
+          width: 100%;
+          margin: 0 auto;
+          max-width: 1100px;
+          display: flex;
+          justify-content: center;
+     }
+     .layout__main .page2 .section25__header .section25__header__box {
+          padding: 15px;
+          background-color: #FFC107;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     } 
+     .layout__main .page2 .section25__header .section25__header__box span {
+          font: normal 500 16px "Roboto";
+          color: #FFF;
+          margin-right: 10px;
+     }
+     .layout__main .page2 .section25__main {
+          width: 100%;
+          margin: 0 auto;
+          max-width: 1100px;
+          border-radius: 20px;
+          padding: 40px 40px 20px;
+          border: 1px solid #FFC107;
+     }
+     .layout__main .page2 .section25__main p{
+          font: normal 300 32px "Roboto";
+          text-align: center;
+     }
+     .layout__main .page2 .section25__align {
+          padding: 10px 20px; 
+          border-radius: 15px;
+          background-color: #E42313;
+          max-width: 510px;
+          margin: 20px auto 10px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+     .layout__main .page2 .section25__align p {
+          font: normal 600 110px "Roboto";
+          color: #FFF;
+          margin-right: 20px;
+     }
+     .layout__main .page2 .section25__align span {
+          font: normal 400 24px "Roboto";
+          color: #FFF;
+          text-align: left;
+     }
+     .layout__main .page2 .section25__main small {
+          font: normal 500 16px "Roboto";
+          color: #E42313;
+          display: block;
+          text-align: center;
+          margin-top: 20px;
+     }
+
+     @media screen and (max-width: 768px) {
+          .layout__main .page2 .section25__main p {
+               font: normal 300 24px "Roboto";
+          }
+          .layout__main .page2 .section25__align p {
+               font: normal 600 80px "Roboto";
+          }
+          .layout__main .page2 .section25__align span {
+               font: normal 400 20px "Roboto";
+          }
+     }
+
+     @media screen and (max-width: 480px) {
+          .layout__main .page2 .section25__main p {
+               font: normal 300 20px "Roboto";
+          }
+          .layout__main .page2 .section25__align p {
+               font: normal 600 60px "Roboto";
+          }
+          .layout__main .page2 .section25__align span {
+               font: normal 400 14px "Roboto";
+          }
+          .layout__main .page2 .section25__main small {
+               font: normal 500 14px "Roboto";
+          }
+     }
 
 /* FIN Cambios 04/10/2021 */
 

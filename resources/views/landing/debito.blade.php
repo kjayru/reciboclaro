@@ -295,22 +295,39 @@ cargo con éxito. El importe máximo a devolver S/ 30*.</small>
             <img src="/assets/tarjeta-ripley.png" alt="Tarjeta Ripley">
           </div>
           <div class="align__right">
-            <span>Ripley te devuelve hasta el</span>
+            <span>Y participa del sorteo de</span>
+            <h5>10 000 Millas LATAM Pass</h5>
+            <span>Además, Banco Ripley te devuelve hasta el</span>
             <p>
               <span>30%</span>
-              <span>de tu<br />cargo fijo*</span>
+              <span>en tu primer<br />recibo pagado</span>
             </p>
-            <span>y además entras al sorteo de</span>
-            <h5><span>10 000</span> Millas LATAM</h5>
           </div>
         </div>
       </div>
       <div class="section24__footer">
         <div></div>
-        <small>
+        <span>Monto máximo de devolución: S/ 30</span>
+        {{-- <small>
           <span>* Máximo S/ 30 soles de descuento de devolución.</span>
           Promoción válida a nivel nacional para mayores de 18 años que se afilien del 1 al 31 de octubre de 2021, con un cargo exitoso del 01/10/2021 al 30/11/2021. Stock: 1 pack de 10 000 millas LATAM Pass para 1 ganador. La devolución del 30% del cargo facturado será efectuado por el Banco Ripley a los 20 días hábiles del primer cargo exitoso, en el estado de cuenta de la tarjeta afiliada. Máximo 1 devolución por cliente. Infórmate cómo y conoce las restricciones en http://cl4.ro/debito
-        </small>
+        </small> --}}
+      </div>
+    </div>
+    <div class="section25">
+      <div class="section25__header">
+        <div class="section25__header__box">
+          <span>PREMIUM</span>
+          <img src="/assets/icono-corona.png">
+        </div>
+      </div>
+      <div class="section25__main">
+        <p>Si eres cliente <b>Claro Club Premium,</b><br />Banco Ripley te devuelve hasta</p>
+        <div class="section25__align">
+          <p>35%</p>
+          <span>en tu primer<br/>recibo pagado</span>
+        </div>
+        <small>Monto máximo de devolución: S/ 35</small>
       </div>
     </div>
 
