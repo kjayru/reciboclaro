@@ -51,11 +51,11 @@
                                 <td>S/0.00</td>
                             </tr>
 
-                            <tr>
+                            {{-- <tr>
                                 <td>Banco Pichincha</td>
                                 <td>S/0.00</td>
                                 <td>No cuenta con agente</td>
-                            </tr>
+                            </tr> --}}
 
                             <tr>
                                 <td>BBVA</td>
