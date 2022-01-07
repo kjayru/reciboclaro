@@ -158,6 +158,45 @@ $(document).on('click','.evento__toggle__show',function(){
 //   }
 // }, 1000);
 
+document.addEventListener("DOMContentLoaded", function(e) {
+    let btn_down = Array.apply(null, document.querySelectorAll('.btn_down'));
+
+    btn_down.filter(function (element, index) {
+      element.addEventListener("click", function(event){ 
+        
+        console.log("event",event.target.parentNode.nextElementSibling);
+
+        event.target.parentNode.classList.toggle('active');
+
+        let btn = event.target.parentNode.nextElementSibling; 
+        btn.classList.toggle('active');
+
+        //btn.nextSibling.classList.toggle('active');
+
+        /*if (index === 0 ) {
+          element.parentNode.classList.toggle('active')
+          submenumovillist[4].parentNode.classList.remove('active')
+          submenumovillist[10].parentNode.classList.remove('active')
+
+      
+        } else if (index === 4 ) {
+          element.parentNode.classList.toggle('active')
+          submenumovillist[10].parentNode.classList.remove('active')
+          submenumovillist[0].parentNode.classList.remove('active')
+
+      
+        }  else if (index === 10 ) {
+           element.parentNode.classList.toggle('active')
+          submenumovillist[0].parentNode.classList.remove('active')
+          submenumovillist[4].parentNode.classList.remove('active')
+       
+      
+        }  */
+
+      })
+
+    })
+});
 
 
 
