@@ -661,10 +661,10 @@ cargo con éxito. El importe máximo a devolver S/ 30*.</small>
                    <a href="https://static.claro.com.pe/img/otros/TyCDebitoautomaticogiftcardsVISA.pdf" target="_blank">aquí</a> 
                 </li> --}}
                 <li>
-                  Términos y condiciones sobre débito automático con tarjeta Ripley. Más información <a href="https://static.claro.com.pe/img/otros/RIPLEY271221.pdf" target="_blank">aquí</a>
+                  Términos y condiciones sobre débito automático con <a href="https://static.claro.com.pe/img/otros/ripley_ene2022.pdf" target="_blank">tarjeta Ripley</a>. Más información <a href="https://static.claro.com.pe/img/otros/RIPLEY271221.pdf" target="_blank">aquí</a>
                 </li>
                 <li>
-                  Términos y condiciones sobre promoción sorteo millas Latam. Más información <a href="https://static.claro.com.pe/img/otros/LATAM271221.pdf" target="_blank">aquí</a>
+                  Términos y condiciones sobre promoción sorteo <a href="https://static.claro.com.pe/img/otros/latam_ene2022.pdf" target="_blank">millas Latam</a>. Más información <a href="https://static.claro.com.pe/img/otros/LATAM271221.pdf" target="_blank">aquí</a>
                 </li>
 
               </ul>
