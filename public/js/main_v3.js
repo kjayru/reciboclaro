@@ -96,19 +96,20 @@ $(document).on('click','.evento__toggle__show',function(){
   }
 
   let contentmain = document.getElementById('contentmain')
-  if ( contentmain ) {
 
-   contentmain.addEventListener('click' , () => {
-        contentmain.classList.toggle('hide')
+  if (contentmain) {
+    $(document).on('click', '#contentmain', function() {
+      if($('#contentmain').hasClass('hide')){
+        $('#contentmain').removeClass('hide')
+      } else {
+        $('#contentmain').addClass('hide')
+      }
     })
     
     if (resolucion < 650) {
-        contentmain.classList.add('hide')
+      contentmain.classList.add('hide')
     }
-
-  } 
-
-  
+  }
 
 //   //se mide en milisegundos
 
