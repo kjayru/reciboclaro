@@ -3048,48 +3048,48 @@
 $fuente2: 'Bevan';*/
 /******************** variables ********************/
 /*$breakpoints: (
-  movil  		: 480px,
-  movil-h 	: 640px,
-  tablet 		: 769px,
+  movil     : 480px,
+  movil-h   : 640px,
+  tablet    : 769px,
   tablet-h  : 1025px,
   tablet-w  : 1344px,
-  laptop  	: 1367px
+  laptop    : 1367px
 );*/
 /*.color($color: 'null'){
 
-	.color_atributos1 ($color) when (iscolor($color)) {
-			 color: $color;
-		}
+  .color_atributos1 ($color) when (iscolor($color)) {
+       color: $color;
+    }
 
-		.color_atributos1($color);
+    .color_atributos1($color);
 }*/
 /*@mixin fondo-degrade($direccion: left,$inicio: #ffffff,$fin: #000000) {
-		background-color: $inicio;
-		background-image: -webkit-linear-gradient($direccion, $inicio, $fin);
-		background-image: -moz-linear-gradient($direccion, $inicio, $fin);
-		background-image: -o-linear-gradient($direccion, $inicio, $fin);
-		background-image: -ms-linear-gradient($direccion, $inicio, $fin);
-		background-image: linear-gradient($direccion, $inicio, $fin);
+    background-color: $inicio;
+    background-image: -webkit-linear-gradient($direccion, $inicio, $fin);
+    background-image: -moz-linear-gradient($direccion, $inicio, $fin);
+    background-image: -o-linear-gradient($direccion, $inicio, $fin);
+    background-image: -ms-linear-gradient($direccion, $inicio, $fin);
+    background-image: linear-gradient($direccion, $inicio, $fin);
 }*/
 /*
 
 .sample {
-		font-size: 30rem;
+    font-size: 30rem;
 
-		@include breakpoint(medium) {
-				font-size: 22rem;
-		}
+    @include breakpoint(medium) {
+        font-size: 22rem;
+    }
 }
 
 
 .element {
-		font-size: 30rem;
+    font-size: 30rem;
 }
 
 @media (min-width: 992px) {
-		.element {
-				font-size: 22rem;
-		}
+    .element {
+        font-size: 22rem;
+    }
 }
 
 */
@@ -3295,7 +3295,7 @@ footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, a
   width: 100%;
   position: relative;
   /*&--close{
-  	position: absolute;
+    position: absolute;
     top: -10;
     right: -10;
     z-index: 2;
@@ -3307,11 +3307,11 @@ footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, a
 }
 
 /*.ID-1 .container{
-	width: auto;
-	margin-right: 0px;
-	margin-left: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
+  width: auto;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }*/
 .grecaptcha-badge {
   visibility: collapse !important;
@@ -3324,6 +3324,7 @@ footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, a
 .just__footer {
   position: relative;
   z-index: 1;
+  clear: both;
 }
 .just__footer .page1 {
   padding: 50px 0 0 0;
@@ -3363,7 +3364,7 @@ footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, a
     padding-bottom: 0px;
   }
 }
-.just__footer .page1__main .section1__header .content {
+.just__footer .page1__main .section1__header .block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3374,88 +3375,118 @@ footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, a
   -ms-flex-pack: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  float: none;
+  width: 100%;
 }
-.just__footer .page1__main .section1__header .content__list {
+.just__footer .page1__main .section1__header .block__list {
   width: 20%;
   margin-left: 5%;
 }
+@media screen and (max-width: 1024px) {
+  .just__footer .page1__main .section1__header .block__list {
+    width: 20%;
+    margin-left: 3%;
+  }
+}
 @media screen and (max-width: 768px) {
-  .just__footer .page1__main .section1__header .content__list {
+  .just__footer .page1__main .section1__header .block__list {
     width: 100%;
     margin-left: 0%;
   }
 }
-.just__footer .page1__main .section1__header .content__list.first {
+.just__footer .page1__main .section1__header .block__list.first {
   width: 25%;
   margin-left: 0%;
 }
+@media screen and (max-width: 1024px) {
+  .just__footer .page1__main .section1__header .block__list.first {
+    width: 31%;
+  }
+}
 @media screen and (max-width: 768px) {
-  .just__footer .page1__main .section1__header .content__list.first {
+  .just__footer .page1__main .section1__header .block__list.first {
     width: 100%;
     padding: 0 0 30px 0;
   }
 }
 @media screen and (max-width: 480px) {
-  .just__footer .page1__main .section1__header .content__list.first {
+  .just__footer .page1__main .section1__header .block__list.first {
     padding: 0 0 30px 0;
   }
 }
-.just__footer .page1__main .section1__header .content__list .social {
-  margin: 10px 0 30px;
+.just__footer .page1__main .section1__header .block__list .social {
+  margin: 10px 0 10px;
 }
 @media screen and (max-width: 768px) {
-  .just__footer .page1__main .section1__header .content__list .social {
+  .just__footer .page1__main .section1__header .block__list .social {
     display: table;
-    margin: 10px auto 30px auto;
+    margin: 10px auto 10px auto;
   }
 }
-.just__footer .page1__main .section1__header .content__list .social a {
+.just__footer .page1__main .section1__header .block__list .social a {
   margin: 0 10px;
+  display: inline-block;
 }
-.just__footer .page1__main .section1__header .content__list .social a:before {
+.just__footer .page1__main .section1__header .block__list .social a:before {
   content: "";
   height: 24px;
   width: 24px;
   position: relative;
   display: inline-block;
 }
-.just__footer .page1__main .section1__header .content__list .social a.ico_facebook {
+.just__footer .page1__main .section1__header .block__list .social a.ico_facebook:before {
   background: url("../assets/icono-facebook-white.svg") no-repeat center center;
 }
-.just__footer .page1__main .section1__header .content__list .social a.ico_instagram {
+.just__footer .page1__main .section1__header .block__list .social a.ico_instagram:before {
   background: url("../assets/icono-instagram-white.svg") no-repeat center center;
 }
-.just__footer .page1__main .section1__header .content__list .social a.ico_twitter {
+.just__footer .page1__main .section1__header .block__list .social a.ico_twitter:before {
   background: url("../assets/icono-twitter-white.svg") no-repeat center center;
 }
-.just__footer .page1__main .section1__header .content__list .social a.ico_youtube {
+.just__footer .page1__main .section1__header .block__list .social a.ico_youtube:before {
   background: url("../assets/icono-youtube-white.svg") no-repeat center center;
 }
-.just__footer .page1__main .section1__header .content__list .logo {
+.just__footer .page1__main .section1__header .block__list .logo {
   margin-bottom: 20px;
 }
-.just__footer .page1__main .section1__header .content__list .logo img {
+.just__footer .page1__main .section1__header .block__list .logo img {
   display: table;
 }
 @media screen and (max-width: 768px) {
-  .just__footer .page1__main .section1__header .content__list .logo img {
+  .just__footer .page1__main .section1__header .block__list .logo img {
     display: none;
   }
 }
-.just__footer .page1__main .section1__header .content__list .logo p {
+.just__footer .page1__main .section1__header .block__list .logo p {
   font: normal 400 0.75em "Roboto";
   color: #ffffff;
   margin: 15px 0 0;
 }
 @media screen and (max-width: 768px) {
-  .just__footer .page1__main .section1__header .content__list .logo p {
+  .just__footer .page1__main .section1__header .block__list .logo p {
     font-size: 0.6875em;
     text-align: center;
     display: none;
   }
 }
+.just__footer .page1__main .section1__header .block__list .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -ms-flex-pack: space-between;
+  padding: 0 50px 10px 0;
+}
+@media screen and (max-width: 1024px) {
+  .just__footer .page1__main .section1__header .block__list .info {
+    padding: 0 30px 10px 0;
+  }
+}
 @media screen and (max-width: 768px) {
-  .just__footer .page1__main .section1__header .content__list .info {
+  .just__footer .page1__main .section1__header .block__list .info {
     width: 60%;
     margin: 0 auto;
     display: -webkit-box;
@@ -3466,49 +3497,68 @@ footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, a
     -webkit-box-pack: justify;
             justify-content: space-between;
     -ms-flex-pack: space-between;
+    padding: 0 0px 10px 0;
   }
 }
 @media screen and (max-width: 480px) {
-  .just__footer .page1__main .section1__header .content__list .info {
+  .just__footer .page1__main .section1__header .block__list .info {
     width: 100%;
   }
 }
-.just__footer .page1__main .section1__header .content__list .info blockquote {
+.just__footer .page1__main .section1__header .block__list .info blockquote {
+  width: 50%;
   margin: 0px;
 }
-.just__footer .page1__main .section1__header .content__list .info blockquote p {
+.just__footer .page1__main .section1__header .block__list .info blockquote p {
   font: normal 400 0.75em "Roboto";
   color: #ffffff;
   margin: 15px 0 0;
   /*@include to(tablet) {
-  	font-size: em(11);
+    font-size: em(11);
   }*/
 }
 @media screen and (max-width: 768px) {
-  .just__footer .page1__main .section1__header .content__list .info blockquote p {
+  .just__footer .page1__main .section1__header .block__list .info blockquote p {
     text-align: center;
   }
 }
-.just__footer .page1__main .section1__header .content__list .info blockquote h4 {
+.just__footer .page1__main .section1__header .block__list .info blockquote h4 {
   font: normal 600 1.25em "Roboto";
   color: #0FBDDF;
   margin-top: 5px;
   /*@include to(tablet) {
-  	font-size: em(18);
+    font-size: em(18);
   }*/
 }
 @media screen and (max-width: 768px) {
-  .just__footer .page1__main .section1__header .content__list .info blockquote h4 {
+  .just__footer .page1__main .section1__header .block__list .info blockquote h4 {
     text-align: center;
   }
 }
-.just__footer .page1__main .section1__header .content__list .info blockquote h4 a {
+.just__footer .page1__main .section1__header .block__list .info blockquote h4 a {
   color: #0FBDDF;
 }
-.just__footer .page1__main .section1__header .content__list .info blockquote h4 a:hover {
+.just__footer .page1__main .section1__header .block__list .info blockquote h4 a:hover {
   color: #0FBDDF;
 }
-.just__footer .page1__main .section1__header .content__list h3 {
+.just__footer .page1__main .section1__header .block__list .reclamaciones {
+  margin-top: 5px;
+}
+@media screen and (max-width: 768px) {
+  .just__footer .page1__main .section1__header .block__list .reclamaciones {
+    text-align: center;
+  }
+}
+.just__footer .page1__main .section1__header .block__list .reclamaciones img {
+  display: table;
+  height: 60px;
+}
+@media screen and (max-width: 768px) {
+  .just__footer .page1__main .section1__header .block__list .reclamaciones img {
+    margin: 0 auto;
+  }
+}
+.just__footer .page1__main .section1__header .block__list h3 {
   font: normal 700 0.875em "Roboto";
   color: #ffffff;
   padding-bottom: 10px;
@@ -3517,33 +3567,33 @@ footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, a
   position: relative;
 }
 @media screen and (max-width: 768px) {
-  .just__footer .page1__main .section1__header .content__list h3 {
+  .just__footer .page1__main .section1__header .block__list h3 {
     padding-bottom: 30px;
   }
 }
-.just__footer .page1__main .section1__header .content__list h3.active {
+.just__footer .page1__main .section1__header .block__list h3.active {
   border-bottom: 0px;
 }
-.just__footer .page1__main .section1__header .content__list h3.active span {
+.just__footer .page1__main .section1__header .block__list h3.active span {
   display: block;
 }
-.just__footer .page1__main .section1__header .content__list h3.active span:before {
+.just__footer .page1__main .section1__header .block__list h3.active span:before {
   -webkit-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
           transform: rotate(180deg);
 }
-.just__footer .page1__main .section1__header .content__list h3 span {
+.just__footer .page1__main .section1__header .block__list h3 span {
   display: none;
   position: absolute;
   top: 0px;
   right: 0px;
 }
 @media screen and (max-width: 768px) {
-  .just__footer .page1__main .section1__header .content__list h3 span {
+  .just__footer .page1__main .section1__header .block__list h3 span {
     display: block;
   }
 }
-.just__footer .page1__main .section1__header .content__list h3 span:before {
+.just__footer .page1__main .section1__header .block__list h3 span:before {
   content: "";
   background: url("../assets/a-arrow-white.svg") no-repeat center center;
   height: 9px;
@@ -3552,26 +3602,26 @@ footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, a
   display: inline-block;
 }
 @media screen and (max-width: 768px) {
-  .just__footer .page1__main .section1__header .content__list ul {
+  .just__footer .page1__main .section1__header .block__list ul {
     display: none;
   }
-  .just__footer .page1__main .section1__header .content__list ul.active {
+  .just__footer .page1__main .section1__header .block__list ul.active {
     display: block;
   }
 }
-.just__footer .page1__main .section1__header .content__list ul li {
+.just__footer .page1__main .section1__header .block__list ul li {
   font: normal 400 0.875em "Roboto";
   color: #ffffff;
   margin: 10px 0;
   line-height: 20px;
   /*@include to(tablet) {
-  	font-size: em(12);
+    font-size: em(12);
   }*/
 }
-.just__footer .page1__main .section1__header .content__list ul li a {
+.just__footer .page1__main .section1__header .block__list ul li a {
   color: #ffffff;
 }
-.just__footer .page1__main .section1__header .content__list ul li a:hover {
+.just__footer .page1__main .section1__header .block__list ul li a:hover {
   color: #ffffff;
 }
 .just__footer .page1__main .section1__main {
@@ -3620,7 +3670,7 @@ footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, a
   position: relative;
   display: inline-block;
 }
-.just__footer .page1__main .section1__main .content {
+.just__footer .page1__main .section1__main .block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3633,59 +3683,59 @@ footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, a
   flex-wrap: wrap;
 }
 @media screen and (max-width: 768px) {
-  .just__footer .page1__main .section1__main .content {
+  .just__footer .page1__main .section1__main .block {
     display: none;
   }
-  .just__footer .page1__main .section1__main .content.active {
+  .just__footer .page1__main .section1__main .block.active {
     display: block;
   }
 }
-.just__footer .page1__main .section1__main .content__list {
+.just__footer .page1__main .section1__main .block__list {
   width: 20%;
   margin-left: 5%;
 }
 @media screen and (max-width: 768px) {
-  .just__footer .page1__main .section1__main .content__list {
+  .just__footer .page1__main .section1__main .block__list {
     width: 100%;
     margin-left: 0%;
   }
 }
-.just__footer .page1__main .section1__main .content__list.first {
+.just__footer .page1__main .section1__main .block__list.first {
   width: 25%;
   margin-left: 0%;
 }
 @media screen and (max-width: 768px) {
-  .just__footer .page1__main .section1__main .content__list.first {
+  .just__footer .page1__main .section1__main .block__list.first {
     width: 100%;
   }
 }
-.just__footer .page1__main .section1__main .content__list h3 {
+.just__footer .page1__main .section1__main .block__list h3 {
   font: normal 700 0.875em "Roboto";
   color: #ffffff;
   /*@include to(tablet) {
-  	font-size: em(12);
+    font-size: em(12);
   }*/
 }
 @media screen and (max-width: 768px) {
-  .just__footer .page1__main .section1__main .content__list ul {
+  .just__footer .page1__main .section1__main .block__list ul {
     margin: 20px 0;
   }
 }
-.just__footer .page1__main .section1__main .content__list ul li {
+.just__footer .page1__main .section1__main .block__list ul li {
   font: normal 400 0.875em "Roboto";
   color: #ffffff;
   line-height: 20px;
   margin: 10px 0;
 }
 @media screen and (max-width: 768px) {
-  .just__footer .page1__main .section1__main .content__list ul li {
+  .just__footer .page1__main .section1__main .block__list ul li {
     text-align: center;
   }
 }
-.just__footer .page1__main .section1__main .content__list ul li a {
+.just__footer .page1__main .section1__main .block__list ul li a {
   color: #ffffff;
 }
-.just__footer .page1__main .section1__main .content__list ul li a:hover {
+.just__footer .page1__main .section1__main .block__list ul li a:hover {
   color: #ffffff;
 }
 .just__header {
