@@ -9083,6 +9083,16 @@ color: #fff;
      line-height: 90%;
      margin-bottom: 20px;
    }
+
+   .layout__main .page2 .section24__main .align__right small {
+     font: normal 300 18px "Roboto";
+     color: #FFFFFF;
+     display: block;
+     text-align: center;
+     line-height: 90%;
+     margin-bottom: 0px;
+     margin-top: 10px;
+   }
    
    .layout__main .page2 .section24__main .align__right p {
      display: -webkit-box;
@@ -9164,6 +9174,9 @@ color: #fff;
      }
      .layout__main .page2 .section24__main .align__right h5 span {
        font-size: 32px;
+     }
+     .layout__main .page2 .section24__main .align__right small {
+          font-size: 16px;
      }
    }
    

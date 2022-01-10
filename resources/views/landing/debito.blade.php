@@ -302,12 +302,13 @@ cargo con éxito. El importe máximo a devolver S/ 30*.</small>
               <span>30%</span>
               <span>en tu primer<br />recibo pagado</span>
             </p>
+            <small>Monto máximo de devolución: S/ 30</small>
           </div>
         </div>
       </div>
       <div class="section24__footer">
         <div></div>
-        <span>Monto máximo de devolución: S/ 30</span>
+        {{-- <span>Monto máximo de devolución: S/ 30</span> --}}
         {{-- <small>
           <span>* Máximo S/ 30 soles de descuento de devolución.</span>
           Promoción válida a nivel nacional para mayores de 18 años que se afilien del 1 al 31 de octubre de 2021, con un cargo exitoso del 01/10/2021 al 30/11/2021. Stock: 1 pack de 10 000 millas LATAM Pass para 1 ganador. La devolución del 30% del cargo facturado será efectuado por el Banco Ripley a los 20 días hábiles del primer cargo exitoso, en el estado de cuenta de la tarjeta afiliada. Máximo 1 devolución por cliente. Infórmate cómo y conoce las restricciones en http://cl4.ro/debito
