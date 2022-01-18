@@ -675,7 +675,7 @@
                                         </div>
                                       </div>
                                     </div>
-                                    <p>Selecciona TELEFONÍA MÓVIL y luego CLARO DNI</p>
+                                    <p>Selecciona TELEFONÍA MÓVIL y luego CLARO DNI.</p>
                                   </figcaption>
                                 </div>
                                 <div class="content__item">
@@ -688,7 +688,7 @@
                                         </div>
                                       </div>
                                     </div>
-                                    <p>Ingresa el NÚMERO DE DNI y selecciona el recibo a cancelar</p>
+                                    <p>Ingresa el NÚMERO DE DNI y selecciona el recibo a cancelar.</p>
                                   </figcaption>
                                 </div>
                                 <div class="content__item">
