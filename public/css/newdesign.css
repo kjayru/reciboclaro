@@ -334,6 +334,15 @@ ul.page-company li{
 	margin-bottom: 	0px;
 }
 
+.table-content .legal{
+	color: #9b9b9b;
+	font-size: 10px;
+}
+
+.table-content .marca{
+	color: #d00000;
+}
+
 .table-content.table1{
 	height: 	450px;
 	overflow: 	hidden;	
