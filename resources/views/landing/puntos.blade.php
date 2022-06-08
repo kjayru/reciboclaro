@@ -136,33 +136,34 @@
                             </tr>
 
                             <tr>
-                                <td>Caja Rural de ahorro <br> y crédito Los Andes <br><small style="color: #d00000;">*A través de Western Union</small></td>
+                                <td>Caja Rural de ahorro <br> y crédito Los Andes <small style="color: #d00000;">*</small></td>
                                 <td>S/1.00</td>
                                 <td>S/1.00</td>
                             </tr>
 
                             <tr>
-                                <td>Financiera Qapaq <br><small style="color: #d00000;">*A través de Western Union</small></td>
-                                <td>S/1.00</td>
-                                <td>S/1.00</td>
-                            </tr>
-
-
-                            <tr>
-                                <td>Caja Municipal de ahorro <br> y crédito de Paita <br><small style="color: #d00000;">*A través de Western Union</small></td>
+                                <td>Financiera Qapaq <small style="color: #d00000;">*</small></td>
                                 <td>S/1.00</td>
                                 <td>S/1.00</td>
                             </tr>
 
 
                             <tr>
-                                <td>Caja Municipal de ahorro <br> y crédito del Santa <br><small style="color: #d00000;">*A través de Western Union</small></td>
+                                <td>Caja Municipal de ahorro <br> y crédito de Paita <small style="color: #d00000;">*</small></td>
+                                <td>S/1.00</td>
+                                <td>S/1.00</td>
+                            </tr>
+
+
+                            <tr>
+                                <td>Caja Municipal de ahorro <br> y crédito del Santa <small style="color: #d00000;">*</small></td>
                                 <td>S/1.00</td>
                                 <td>S/1.00</td>
                             </tr>
 
 
                         </table>    
+                        <small style="color: #d00000;">*A través de Western Union</small>
                     </div>
 
 
@@ -206,7 +207,7 @@
                             </tr>
 
                             <tr>
-                                <td>Tambo <br><small style="color: #d00000;">*A través del BBVA</small></td>
+                                <td>Tambo <small style="color: #d00000;">*</small></td>
                                 <td>S/1.00</td>
                                
                             </tr>
@@ -232,6 +233,7 @@
                             </tr>
 
                         </table>
+                        <small style="color: #d00000;">*A través del BBVA</small>
                     </div>
                       
                    
