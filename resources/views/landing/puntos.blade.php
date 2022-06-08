@@ -136,34 +136,34 @@
                             </tr>
 
                             <tr>
-                                <td>Caja Rural de ahorro <br> y crédito Los Andes <span class="marca">*</span></td>
+                                <td>Caja Rural de ahorro <br> y crédito Los Andes <small class="marca">*</small></td>
                                 <td>S/1.00</td>
                                 <td>S/1.00</td>
                             </tr>
 
                             <tr>
-                                <td>Financiera Qapaq <span class="marca">*</span></td>
-                                <td>S/1.00</td>
-                                <td>S/1.00</td>
-                            </tr>
-
-
-                            <tr>
-                                <td>Caja Municipal de ahorro <br> y crédito de Paita <span class="marca">*</span></td>
+                                <td>Financiera Qapaq <small class="marca">*</small></td>
                                 <td>S/1.00</td>
                                 <td>S/1.00</td>
                             </tr>
 
 
                             <tr>
-                                <td>Caja Municipal de ahorro <br> y crédito del Santa <span class="marca">*</span></td>
+                                <td>Caja Municipal de ahorro <br> y crédito de Paita <small class="marca">*</small></td>
+                                <td>S/1.00</td>
+                                <td>S/1.00</td>
+                            </tr>
+
+
+                            <tr>
+                                <td>Caja Municipal de ahorro <br> y crédito del Santa <small class="marca">*</small></td>
                                 <td>S/1.00</td>
                                 <td>S/1.00</td>
                             </tr>
 
 
                         </table>    
-                        <span class="legal">*A través de Western Union</span>
+                        <small class="legal"><i class="marca">*</i>A través de Western Union</small>
                     </div>
 
 
@@ -207,7 +207,7 @@
                             </tr>
 
                             <tr>
-                                <td>Tambo <span class="marca">*</span></td>
+                                <td>Tambo <small class="marca">*</small></td>
                                 <td>S/1.00</td>
                                
                             </tr>
@@ -233,7 +233,7 @@
                             </tr>
 
                         </table>
-                        <span class="legal">*A través del BBVA</span>
+                        <small class="legal"><i class="marca">*</i>A través del BBVA</small>
                     </div>
                       
                    
