@@ -206,8 +206,8 @@
                             </tr>
 
                             <tr>
-                                <td>Tambo</td>
-                                <td>S/1.00 <br><small style="color: #d00000;">*A través del BBVA</small></td>
+                                <td>Tambo <br><small style="color: #d00000;">*A través del BBVA</small></td>
+                                <td>S/1.00</td>
                                
                             </tr>
 
