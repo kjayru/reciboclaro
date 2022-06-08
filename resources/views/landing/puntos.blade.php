@@ -72,7 +72,7 @@
                             <tr>
                                 <td>Banbif</td>
                                 <td>S/2.50</td>
-                                <td>S/1.00</td>
+                                <td>S/1.50</td>
                             </tr>
 
 
@@ -90,8 +90,8 @@
 
                             <tr>
                                 <td>Interbank</td>
-                                <td>S/5.00</td>
-                                <td>S/1.00</td>
+                                <td>No presta servicio</td>
+                                <td>S/1.60</td>
                             </tr>
                         </table>
                     </div>
@@ -108,7 +108,7 @@
                             <tr>
                                 <td>Caja Huancayo</td>
                                 <td>S/1.00</td>
-                                <td>S/1.00</td>
+                                <td>No presta servicio</td>
                             </tr>
 
                             <tr>
@@ -136,27 +136,27 @@
                             </tr>
 
                             <tr>
-                                <td>Caja Rural de ahorro <br> y crédito Los Andes </td>
+                                <td>Caja Rural de ahorro <br> y crédito Los Andes <br><small style="color: #d00000;">*A través de Western Union</small></td>
                                 <td>S/1.00</td>
                                 <td>S/1.00</td>
                             </tr>
 
                             <tr>
-                                <td>Financiera Qapaq </td>
-                                <td>S/1.00</td>
-                                <td>S/1.00</td>
-                            </tr>
-
-
-                            <tr>
-                                <td>Caja Municipal de ahorro <br> y crédito de Paita </td>
+                                <td>Financiera Qapaq <br><small style="color: #d00000;">*A través de Western Union</small></td>
                                 <td>S/1.00</td>
                                 <td>S/1.00</td>
                             </tr>
 
 
                             <tr>
-                                <td>Caja Municipal de ahorro <br> y crédito del Santa </td>
+                                <td>Caja Municipal de ahorro <br> y crédito de Paita <br><small style="color: #d00000;">*A través de Western Union</small></td>
+                                <td>S/1.00</td>
+                                <td>S/1.00</td>
+                            </tr>
+
+
+                            <tr>
+                                <td>Caja Municipal de ahorro <br> y crédito del Santa <br><small style="color: #d00000;">*A través de Western Union</small></td>
                                 <td>S/1.00</td>
                                 <td>S/1.00</td>
                             </tr>
@@ -207,7 +207,7 @@
 
                             <tr>
                                 <td>Tambo</td>
-                                <td>S/1.00</td>
+                                <td>S/1.00 <br><small style="color: #d00000;">*A través del BBVA</small></td>
                                
                             </tr>
 
