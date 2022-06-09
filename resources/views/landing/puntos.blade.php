@@ -208,7 +208,7 @@
 
                             <tr>
                                 <td>Tambo <small class="marca">*</small></td>
-                                <td>S/1.00</td>
+                                <td>S/1.50</td>
                                
                             </tr>
 
