@@ -71,7 +71,7 @@
 
                             <tr>
                                 <td>Banbif</td>
-                                <td>S/2.50</td>
+                                <td>S/3.00</td>
                                 <td>S/1.50</td>
                             </tr>
 
