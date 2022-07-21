@@ -8100,7 +8100,7 @@ html.fp-enabled,
     /* height: 478px;*/
      position: relative;
      /*background: url("../assets/fondo.svg") no-repeat center center;*/
-  
+     padding: 50px 0 0 0;
 }
 
 @media screen and (max-width: 768px) {

@@ -287,7 +287,7 @@ cargo con éxito. El importe máximo a devolver S/ 30*.</small>
 
       </div>
     </section> -->
-    <div class="section23"><br><br></div>
+    <div class="section23"></div>
     <!--<div class="section24">
       <div class="section24__main">
         <div class="align">
