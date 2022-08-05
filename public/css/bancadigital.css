@@ -5061,7 +5061,7 @@ footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, a
 }
 @media screen and (max-width: 480px) {
   .layout__main .page2__main .section1__option .content__list {
-    width: 90vw;
+    width: 80vw;
     margin: 0 auto;
     display: block;
     -moz-flex-direction: column;
