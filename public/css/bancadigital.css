@@ -5271,7 +5271,7 @@ footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, a
 @media screen and (max-width: 480px) {
   .layout__main .page2__main .section1__option .content__item figcaption p {
     font-size: 0.75em;
-    padding: 5px 0 0px 12px;
+    padding: 5px 10px 0px 12px;
     line-height: 17px;
   }
 }
