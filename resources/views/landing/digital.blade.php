@@ -1372,6 +1372,126 @@
                       </div>
                     </div>
                   </div>
+                  <div class="section1__option" :class="{ 'active': hash.selected.active == 2 }"> 
+                    <div class="accordion">
+                      <div class="accordion__item" :class="{ 'active': accordion['tabs'][1][2].option[0] }">
+                        <div class="accordion__subtitle" @click="openAccordion(1,2,0)"><a>Vía APP 
+                            <h5>Sin comisión</h5></a><i></i></div>
+                        <slide-up-down class="accordion__container" :active="accordion['tabs'][1][2].option[0]" :duration="300">
+                          <div class="accordion__info">
+                            <div class="content">
+                              <vue-slick class="content__list" ref="slick32" :options="slickOptions">
+                                <div class="content__item">
+                                  <figure><img src="/assets/cajas/app/trujillo_1.png" alt=""/></figure>
+                                  <figcaption>
+                                    <div class="circle">
+                                      <div class="circle__inner">
+                                        <div class="circle__wrapper">
+                                          <div class="circle__content">1</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <p>Ingresa al APP de CAJA TRUJILLO y en el menú principal selecciona la opción PAGOS.</p>
+                                  </figcaption>
+                                </div>
+                                <div class="content__item">
+                                  <figure><img src="/assets/cajas/app/trujillo_2.png" alt=""/></figure>
+                                  <figcaption>
+                                    <div class="circle">
+                                      <div class="circle__inner">
+                                        <div class="circle__wrapper">
+                                          <div class="circle__content">2</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <p>Selecciona la opción PAGO DE SERVICIOS.</p>
+                                  </figcaption>
+                                </div>
+                                <div class="content__item">
+                                  <figure><img src="/assets/cajas/app/trujillo_3.png" alt=""/></figure>
+                                  <figcaption>
+                                    <div class="circle">
+                                      <div class="circle__inner">
+                                        <div class="circle__wrapper">
+                                          <div class="circle__content">3</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <p>Luego ingresa a la opción PAGO DE TELEFONÍA.</p>
+                                  </figcaption>
+                                </div>
+                                <div class="content__item">
+                                  <figure><img src="/assets/cajas/app/trujillo_4.png" alt=""/></figure>
+                                  <figcaption>
+                                    <div class="circle">
+                                      <div class="circle__inner">
+                                        <div class="circle__wrapper">
+                                          <div class="circle__content">4</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <p>Selecciona OPERADOR DE CLARO, TIPO DE SERVICIO y CUENTA ORIGEN para cargar el pago.</p>
+                                  </figcaption>
+                                </div>
+                                <div class="content__item">
+                                  <figure><img src="/assets/cajas/app/trujillo_5.png" alt=""/></figure>
+                                  <figcaption>
+                                    <div class="circle">
+                                      <div class="circle__inner">
+                                        <div class="circle__wrapper">
+                                          <div class="circle__content">5</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <p>Dar clic en la lupa para visualizar los pagos pendientes, luego dar clic al botón CONSULTAR.</p>
+                                  </figcaption>
+                                </div>
+                                <div class="content__item">
+                                  <figure><img src="/assets/cajas/app/trujillo_6.png" alt=""/></figure>
+                                  <figcaption>
+                                    <div class="circle">
+                                      <div class="circle__inner">
+                                        <div class="circle__wrapper">
+                                          <div class="circle__content">6</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <p>Visualizarás el RESÚMEN DE PAGO, debes ingresar el CÓDIGO SMS que llegará a tu celular, luego dar clic al botón REALIZAR PAGO.</p>
+                                  </figcaption>
+                                </div>
+                                <div class="content__item">
+                                  <figure><img src="/assets/cajas/app/trujillo_7.png" alt=""/></figure>
+                                  <figcaption>
+                                    <div class="circle">
+                                      <div class="circle__inner">
+                                        <div class="circle__wrapper">
+                                          <div class="circle__content">7</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <p>Visualizarás la pantalla de PAGO EXITOSO.</p>
+                                  </figcaption>
+                                </div>
+                                <div class="content__item">
+                                  <figure><img src="/assets/cajas/app/trujillo_8.png" alt=""/></figure>
+                                  <figcaption>
+                                    <div class="circle">
+                                      <div class="circle__inner">
+                                        <div class="circle__wrapper">
+                                          <div class="circle__content">8</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <p>Podrás grabar tu pago como FAVORITO y si deseas lo podrás compartirlo por redes.</p>
+                                  </figcaption>
+                                </div>
+                              </vue-slick>
+                            </div>
+                          </div>
+                        </slide-up-down>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </section>

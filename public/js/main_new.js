@@ -178,7 +178,8 @@ var main = (function(APP, win, $, undefined) {
               query:'cajas-rurales',
               options: [
                 'cusco',
-                'huancayo'
+                'huancayo',
+                'trujillo'
               ],
               active: 0
             }
@@ -247,6 +248,11 @@ var main = (function(APP, win, $, undefined) {
                 option:[
                   true,
                   false
+                ]
+              },
+              {
+                option:[
+                  true
                 ]
               },
               {
@@ -372,6 +378,8 @@ var main = (function(APP, win, $, undefined) {
             optionChoose = 0;
           }else if(option == 'huancayo'){
             optionChoose = 1;
+          }else if(option == 'trujillo'){
+            optionChoose = 2;
           }
         }
 

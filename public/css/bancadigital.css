@@ -4242,6 +4242,28 @@ footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, a
     margin: 0 auto;
   }
 }
+.layout__main .page2__main .section1__main .menu__selected a.c2:before {
+  content: "";
+  width: 145px;
+  height: 52px;
+  display: block;
+  background: url("../assets/logos/caja-trujillo-logo.svg") no-repeat center center;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+@media screen and (max-width: 768px) {
+  .layout__main .page2__main .section1__main .menu__selected a.c2:before {
+    background-size: auto 100%;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .layout__main .page2__main .section1__main .menu__selected a.c2:before {
+    display: table;
+    margin: 0 auto;
+  }
+}
 @media screen and (max-width: 768px) {
   .layout__main .page2__main .section1__main .menu__selected a {
     font-size: 1em;
@@ -4518,6 +4540,28 @@ footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, a
 }
 @media screen and (max-width: 480px) {
   .layout__main .page2__main .section1__main .menu__list a.c1:before {
+    display: table;
+    margin: 0 auto;
+  }
+}
+.layout__main .page2__main .section1__main .menu__list a.c2:before {
+  content: "";
+  width: 145px;
+  height: 52px;
+  display: block;
+  background: url("../assets/logos/caja-trujillo-logo.svg") no-repeat center center;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+@media screen and (max-width: 768px) {
+  .layout__main .page2__main .section1__main .menu__list a.c2:before {
+    background-size: auto 100%;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .layout__main .page2__main .section1__main .menu__list a.c2:before {
     display: table;
     margin: 0 auto;
   }
