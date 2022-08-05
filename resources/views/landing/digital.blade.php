@@ -1482,7 +1482,7 @@
                                         </div>
                                       </div>
                                     </div>
-                                    <p>Podrás grabar tu pago como FAVORITO y si deseas lo podrás compartirlo por redes.</p>
+                                    <p>Podrás grabar tu pago como FAVORITO y si deseas lo podrás compartir por redes.</p>
                                   </figcaption>
                                 </div>
                               </vue-slick>
