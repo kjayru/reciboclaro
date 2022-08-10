@@ -44,139 +44,60 @@
 
 
       <!-- este es el menu nuevo -->
-      <div class="just__header">
-        <div class="page1">
-          <div class="page1__main">
-            <section class="section1">
-              <div class="section1__align">
-                <div class="section1__main">
-                  <div class="item__list">
-                    <div class="item">
-                      <div class="item__menu"><a href="https://www.claro.com.pe/personas/" target="_blank">
-                          <p>Personas</p></a><a href="https://www.claro.com.pe/negocios/" target="_blank">
-                          <p>Negocios</p></a><a href="https://www.claro.com.pe/empresas/" target="_blank">
-                          <p>Empresas</p></a></div>
-                      <div class="item__icon">
-                        <div class="icon__menu"><a href="https://www.clarovideo.com/peru/homeuser" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/6388c79e-a8df-437d-a8cf-a6a24aa9053d-icono-video.svg" alt=""><span>Claro Video</span></a><a href="https://www.claromusica.com/landing" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/90a95baf-6208-47a4-8826-7ee5264d67d4-icono-musica.svg" alt=""><span>Claro Música</span></a></div>
-                        <div class="icon__line"><span></span></div>
-                        <div class="icon__country"><span>Estoy en</span>
-                          <select class="selectcountrymobile" id="selectcountrymobile">
-                            <option value="https://www.claro.com.ar/personas">Argentina</option>
-                            <option value="https://www.claro.com.br/"> Brasil</option>
-                            <option value="https://www.clarochile.cl/personas/">Chile</option>
-                            <option value="https://www.claro.com.co/personas/"> Colombia</option>
-                            <option value="https://www.claro.cr/personas/">Costa Rica</option>
-                            <option value="https://www.claro.com.ec/personas/"> Ecuador</option>
-                            <option value="https://www.claro.com.sv/personas/">El Salvador</option>
-                            <option value="https://www.usclaro.com/"> Estados Unidos</option>
-                            <option value="https://www.claro.com.gt/personas/">Guatemala</option>
-                            <option value="https://www.claro.com.hn/personas/"> Honduras</option>
-                            <option value="https://www.claro.com.ni/personas/">Nicaragua</option>
-                            <option value="https://www.claro.com.pa/personas/"> Panamá</option>
-                            <option value="https://www.claro.com.py/personas/">Paraguay</option>
-                            <option value="https://www.claro.com.pe/personas/">Perú</option>
-                            <option value="https://www.clarotodo.com/">Puerto Rico</option>
-                            <option value="https://www.claro.com.do/personas/"> Rep. Dominicana</option>
-                            <option value="https://www.claro.com.uy/personas/">Uruguay</option>
-                          </select>
-                          <div class="dropdown-country" id="dropdownCountry"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/ace93caa-2446-486a-ad2a-85b07e8e9a32-peru.svg" alt=""></div>
-                          <ul id="dropdownInfo">
-                            <li><a href="https://www.claro.com.ar/personas" target="_blank"><span><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/df17218b-b496-484f-a2a7-e5903a6e36c2-argentina.svg" alt="">   Argentina</span></a></li>
-                            <li><a href="https://www.claro.com.br/" target="_blank"><span><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/6b89de3e-52c0-4270-8339-5ecac16881d9-brasil.svg" alt="">   Brasil</span></a></li>
-                            <li><a href="https://www.clarochile.cl/personas/" target="_blank"><span><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/b12346f7-e697-4753-a76b-adb1cb64a500-chile.svg" alt="">   Chile</span></a></li>
-                            <li><a href="https://www.claro.com.co/personas/" target="_blank"><span><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/1ee36c63-cb6a-44dc-ad9a-72dae69b48c6-colombia.svg" alt="">   Colombia</span></a></li>
-                            <li><a href="https://www.claro.cr/personas/" target="_blank"><span><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/923958db-3258-4ae1-91d9-f44a0685fdd3-costarica.svg" alt="">   Costa Rica</span></a></li>
-                            <li><a href="https://www.claro.com.ec/personas/" target="_blank"><span><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/2e7da2a9-c582-4a7c-b95d-dd5e742bc82b-ecuador.svg" alt="">   Ecuador</span></a></li>
-                            <li><a href="https://www.claro.com.sv/personas/" target="_blank"><span><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/4bdb87dd-917e-4e90-9972-9d849d94a096-elsalvador.svg" alt="">   El Salvador</span></a></li>
-                            <li><a href="https://www.usclaro.com/" target="_blank"><span><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/4018975b-b2af-4af9-a964-9d943db80e9f-usa.svg" alt="">   Estados Unidos</span></a></li>
-                            <li><a href="https://www.claro.com.gt/personas/" target="_blank"><span><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/7a400045-9ca4-46cf-9185-9c686119a5a2-guatemala.svg" alt="">   Guatemala</span></a></li>
-                            <li><a href="https://www.claro.com.hn/personas/" target="_blank"><span><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/df05b44d-adc9-4e42-937c-e3bcd606f0ca-honduras.svg" alt="">   Honduras</span></a></li>
-                            <li><a href="https://www.claro.com.ni/personas/" target="_blank"><span><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/fb674ebb-aa6d-4f36-9443-f0129d97678b-nicaragua.svg" alt="">   Nicaragua</span></a></li>
-                            <li><a href="https://www.claro.com.pa/personas/" target="_blank"><span><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/f6544495-084c-429c-bac2-bf0dc4cb8b7c-panama.svg" alt="">   Panamá</span></a></li>
-                            <li><a href="https://www.claro.com.py/personas/" target="_blank"><span><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/02e2dace-24ea-46b1-ae60-fdad98fb6b6a-paraguay.svg" alt="">   Paraguay</span></a></li>
-                            <li><a href="https://www.claro.com.pe/personas/" target="_blank"><span><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/ace93caa-2446-486a-ad2a-85b07e8e9a32-peru.svg" alt="">   Perú</span></a></li>
-                            <li><a href="https://www.clarotodo.com/" target="_blank"><span><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/18f242db-48e1-43fd-b03e-09dce965fbbe-puertorico.svg" alt="">   Puerto Rico</span></a></li>
-                            <li><a href="https://www.claro.com.do/personas/" target="_blank"><span><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/1b9b15a2-b8b6-483d-a129-1765a432bf75-republicadominicana.svg" alt="">   Rep. Dominicana</span></a></li>
-                            <li><a href="https://www.claro.com.uy/personas/" target="_blank"><span><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/a416f8f2-4c1b-4cad-8d57-9bf055557334-uruguay.svg" alt="">   Uruguay</span></a></li>
-                            <div id="bg-color"></div>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section class="section2" id="bgredheader">
-              <div class="section2__align">
-                <div class="section2__main">
-                  <div class="item__list">
-                    <div class="item">
-                      <div class="item__prin">
-                        <div class="item__brand"><a href="/"> <img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/21800919-bc3a-466f-9663-637d8e04becd-Blanco.svg" alt=""></a></div>
-                        <div class="item__menu">
-                          <ul>
-                            <li class="desktopmenu movil">¿Qué necesitas saber?
-                              <ul class="datos_movil">
-                                <li><a href="/como-leer-tu-recibo-movil" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image1.svg" alt="">
-                                    <p>¿Cómo leer tu recibo móvil?</p></a></li>
-                                <li><a href="/lugares-de-pago" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image2.svg" alt="">
-                                    <p>Lugares y medios de pago</p></a></li>
-                                <li><a href="/lugares-de-pago/debito-automatico" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image3.svg" alt="">
-                                    <p>Afíliate al débito automático</p></a></li>
-                                <li><a href="/dudas-sobre-tu-facturacion" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image4.svg" alt="">
-                                    <p>¿Problemas con tu facturación?</p></a></li>
-                                <li><a href="/glosario-de-facturacion" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image5.svg" alt="">
-                                    <p>Glosario </p></a></li>
-                                <li><a href="/dudas-y-preguntas-frecuentes" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image6.svg" alt="">
-                                    <p>Dudas y preguntas frecuentes</p></a></li>
-                              </ul>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="item__secu"><a id="miclaroappchange" href="https://mi.claro.com.pe/wps/portal/miclaro/landing2/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziPQLdXT2cTAz8DFxDLQ0Cg_3NTPwMDYwNvMz0wwkpiAJKG-AAjgZA_VFgJWYGHu4ensEGvv7GgWYGjiFh7p6uJiYGBkZmUAV4zCjIjTDIdFRUBAA48-xV/dz/d5/L2dBISEvZ0FBIS9nQSEh/" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/39e590e9-d474-4f39-997d-a7b68a6c9196-miclaro_blanco.svg" alt="">Mi Claro</a><a href="https://tiendaclaro.pe/?utm_source=PortalClaro&amp;utm_medium=Referral&amp;utm_campaign=BotonHeader&amp;utm_term=Todos&amp;utm_content=Home" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/6216b77e-873d-4659-abc4-a7fbeadf1973-tienda_rojo.svg" alt="">Tienda</a>
-                        <div class="burger" id="burger">
-                          <div></div>
-                          <div></div>
-                          <div></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="menu-movil" id="contentmenumovil">
-                    <div class="movil-list-menu">
-                      <ul id="contentmenulist">
-                        <li class="box-menu">
-                          <p><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/d24dcece-79fa-4f32-81fb-24aa60efcc3a-Movil.svg" alt="">  ¿Qué necesitas saber? </p>
-                          <div class="detail">
-                            <ul> 
-                              <li><a href="/como-leer-tu-recibo-movil" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image1.svg" alt=""> ¿Cómo leer tu recibo móvil?</a></li>
-                              <li><a href="/lugares-de-pago" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image2.svg" alt=""> Lugares y medios de pago</a></li>
-                              <li><a href="/lugares-de-pago/debito-automatico" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image3.svg" alt=""> Afíliate al débito automático</a></li>
-                              <li><a href="/dudas-sobre-tu-facturacion" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image4.svg" alt="">  ¿Problemas con tu facturación?</a></li>
-                              <li><a href="/glosario-de-facturacion" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image5.svg" alt=""> Glosario </a></li>
-                              <li><a href="/dudas-y-preguntas-frecuentes" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image6.svg" alt=""> Dudas y preguntas frecuentes</a></li>
-                            </ul>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="movil-list-app">
-                      <p>Disfruta de:</p>
-                      <ul>
-                        <li><a href="https://www.clarovideo.com/peru/homeuser" target="_blank"> <img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/c8c9e10b-358a-48b1-8bf9-b98a3c85108e-Video.svg" alt="">   Claro Video</a></li>
-                        <li><a href="https://www.claromusica.com/landing" target="_blank"> <img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/f5dc6b5e-d476-462b-b8bd-d21477bd812e-Musica.svg" alt="">   Claro Música</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="menu-movil-btn" id="menumovilbtn">
-                    <div class="movil-list-btn"><a href="https://tiendaclaro.pe/?utm_source=PortalClaro&amp;utm_medium=Referral&amp;utm_campaign=BotonHeader&amp;utm_term=Todos&amp;utm_content=Home" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/cc5dd539-6f73-4d8e-b793-a647df0c69e0-tienda_blanco.svg" alt="">Tienda</a></div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <div class="bg-color-menu" id="bg-color-menu"></div>
-          </div>
+      <header class="claro-havas-header">
+      <aside class="claro-havas-header__top">
+        <nav class="claro-havas-header__top__options"><a class="claro-havas-header__top__options__link -active-" href="https://www.claro.com.pe/personas/">Personas</a><a class="claro-havas-header__top__options__link" href="https://www.claro.com.pe/negocios/">Negocios</a><a class="claro-havas-header__top__options__link" href="https://www.claro.com.pe/empresas/">Empresas</a></nav><b class="claro-havas-header__top__info"><a class="claro-havas-header__top__info__link" href="https://www.claro.com.pe/informacion-a-abonados-y-usuarios/">Información a Abonados y Usuarios</a></b>
+        <form class="claro-havas-header__top__form" method="get" action="/buscador/" onsubmit="return (this.q.value == '') ? false:true;"><img class="claro-havas-header__top__form__icon" src="./public/images/search.svg" loading="lazy">
+          <input class="claro-havas-header__top__form__input" type="search" name="q" autocomplete="off" disabled placeholder="Buscar">
+        </form>
+        <aside class="claro-havas-header__top__more"><strong class="claro-havas-header__top__more__title fnButtonActiveToggle"><span>Más de Claro</span><img src="./public/images/arrow-bottom.svg" loading="lazy"></strong>
+          <nav class="claro-havas-header__top__more__nav">
+            <div class="claro-havas-header__top__more__nav__inset"><a class="claro-havas-header__top__more__nav__item" href="https://www.claromusica.com/landing"><img src="./public/images/icono-musica.svg" loading="lazy">Claro Música</a><a class="claro-havas-header__top__more__nav__item" href="https://www.clarovideo.com/peru/homeuser"><img src="./public/images/icono-video.svg" loading="lazy">Claro Video</a></div>
+          </nav>
+        </aside>
+        <div class="claro-havas-header__top__countries"><strong class="claro-havas-header__top__countries__selected fnButtonActiveToggle"><img src="./public/images/peru-v2.svg" loading="lazy"><img src="./public/images/arrow-bottom.svg" loading="lazy"></strong>
+          <select class="claro-havas-header__top__countries__select" onchange="location.href=this.value">
+            <option value="https://www.claro.com.ar/">Argentina</option>
+            <option value="https://www.claro.com.br/">Brasil</option>
+            <option value="https://www.clarochile.cl/">Chile</option>
+            <option value="https://www.claro.com.co/">Colombia</option>
+            <option value="https://www.claro.cr/">Costa Rica</option>
+            <option value="https://www.claro.com.ec/">Ecuador</option>
+            <option value="https://www.claro.com.sv/">El salvador</option>
+            <option value="https://www.claro.com.es/">España</option>
+            <option value="https://www.usclaro.com/">Estados Unidos</option>
+            <option value="https://www.claro.com.gt/">Guatemala</option>
+            <option value="https://www.claro.com.hn/">Honduras</option>
+            <option value="https://www.claro.com.ni/">Nicaragua</option>
+            <option value="https://www.claro.com.pa/">Panamá</option>
+            <option value="https://www.claro.com.py/">Paraguay</option>
+            <option value="https://www.claro.com.pe/">Perú</option>
+            <option value="https://www.claropr.com/">Puerto Rico</option>
+            <option value="https://www.claro.com.do/">Rep. Dominicana</option>
+            <option value="https://www.claro.com.uy/">Uruguay</option>
+          </select>
+          <nav class="claro-havas-header__top__countries__nav fnNavCountries"><a class="claro-havas-header__top__countries__nav__link" href="https://www.claro.com.ar/"><img src="./public/images/argentina.svg" loading="lazy">Argentina</a><a class="claro-havas-header__top__countries__nav__link" href="https://www.claro.com.br/"><img src="./public/images/brasil.svg" loading="lazy">Brasil</a><a class="claro-havas-header__top__countries__nav__link" href="https://www.clarochile.cl/"><img src="./public/images/chile.svg" loading="lazy">Chile</a><a class="claro-havas-header__top__countries__nav__link" href="https://www.claro.com.co/"><img src="./public/images/colombia.svg" loading="lazy">Colombia</a><a class="claro-havas-header__top__countries__nav__link" href="https://www.claro.cr/"><img src="./public/images/costarica.svg" loading="lazy">Costa Rica</a><a class="claro-havas-header__top__countries__nav__link" href="https://www.claro.com.ec/"><img src="./public/images/ecuador.svg" loading="lazy">Ecuador</a><a class="claro-havas-header__top__countries__nav__link" href="https://www.claro.com.sv/"><img src="./public/images/elsalvador.svg" loading="lazy">El salvador</a><a class="claro-havas-header__top__countries__nav__link" href="https://www.claro.com.es/"><img src="./public/images/espana.svg" loading="lazy">España</a><a class="claro-havas-header__top__countries__nav__link" href="https://www.usclaro.com/"><img src="./public/images/estadosunidos.svg" loading="lazy">Estados Unidos</a><a class="claro-havas-header__top__countries__nav__link" href="https://www.claro.com.gt/"><img src="./public/images/guatemala.svg" loading="lazy">Guatemala</a><a class="claro-havas-header__top__countries__nav__link" href="https://www.claro.com.hn/"><img src="./public/images/honduras.svg" loading="lazy">Honduras</a><a class="claro-havas-header__top__countries__nav__link" href="https://www.claro.com.ni/"><img src="./public/images/nicaragua.svg" loading="lazy">Nicaragua</a><a class="claro-havas-header__top__countries__nav__link" href="https://www.claro.com.pa/"><img src="./public/images/panama.svg" loading="lazy">Panamá</a><a class="claro-havas-header__top__countries__nav__link" href="https://www.claro.com.py/"><img src="./public/images/paraguay.svg" loading="lazy">Paraguay</a><a class="claro-havas-header__top__countries__nav__link" href="https://www.claro.com.pe/"><img src="./public/images/peru.svg" loading="lazy">Perú</a><a class="claro-havas-header__top__countries__nav__link" href="https://www.claropr.com/"><img src="./public/images/puertorico.svg" loading="lazy">Puerto Rico</a><a class="claro-havas-header__top__countries__nav__link" href="https://www.claro.com.do/"><img src="./public/images/repdominicana.svg" loading="lazy">Rep. Dominicana</a><a class="claro-havas-header__top__countries__nav__link" href="https://www.claro.com.uy/"><img src="./public/images/uruguay.svg" loading="lazy">Uruguay</a></nav>
         </div>
+      </aside>
+      <div class="claro-havas-header__principal"><img class="claro-havas-header__principal__mobile-button fnHeaderShowMenu" src="./public/images/menuMobile.svg" loading="lazy"><strong class="claro-havas-header__principal__title"><img src="./public/images/claro-logotipo.svg" loading="lazy"></strong>
+        <nav class="claro-havas-header__principal__nav fnHeaderMenu">
+          <aside class="claro-havas-header__principal__nav__in-mobile"><b class="claro-havas-header__principal__nav__in-mobile__title">
+               Menu<img class="fnHeaderHideMenu" src="./public/images/close.svg" loading="lazy"></b>
+            <div class="claro-havas-header__top__options"><a class="claro-havas-header__top__options__link -active-" href="https://www.claro.com.pe/personas/">Personas</a><a class="claro-havas-header__top__options__link" href="https://www.claro.com.pe/negocios/">Negocios</a><a class="claro-havas-header__top__options__link" href="https://www.claro.com.pe/empresas/">Empresas</a></div>
+            <form class="claro-havas-header__top__form" method="get" action="/buscador/" onsubmit="return (this.q.value == '') ? false:true;"><img class="claro-havas-header__top__form__icon" src="./public/images/search.svg" loading="lazy">
+              <input class="claro-havas-header__top__form__input" type="search" name="q" autocomplete="off" disabled placeholder="Buscar">
+            </form>
+          </aside>
+          <ul class="claro-havas-header__principal__nav__list">
+            <li class="claro-havas-header__principal__nav__item fnHeaderSubMenu"><strong class="claro-havas-header__principal__nav__item__title fnHeaderShowSubMenu">¿Qué necesitas saber?</strong>
+              <ul class="claro-havas-header__principal__nav__block">
+                <div class="claro-havas-header__principal__nav__block__title-in-mobile">Enlaces<span class="fnHeaderItemClose"><img src="./public/images/flechaRegreso.svg" loading="lazy">Regresar</span></div>
+                <li class="claro-havas-header__principal__nav__block__item fnHeaderNavItem" data-image="./public/images/servicios-moviles.jpg"><strong class="claro-havas-header__principal__nav__block__item__title"><a class="claro-havas-header__principal__nav__block__item__title__link">Enlaces</a><img src="./public/images/centro_de_ayuda.svg" loding="lazy"></strong><a class="claro-havas-header__principal__nav__block__item__link" href="https://www.claro.com.pe/como-leer-tu-recibo-movil">¿Cómo leer tu recibo móvil?</a><a class="claro-havas-header__principal__nav__block__item__link" href="https://www.claro.com.pe/lugares-de-pago">Lugares y medios de pago</a><a class="claro-havas-header__principal__nav__block__item__link" href="https://www.claro.com.pe/lugares-de-pago/debito-automatico">Afíliate al débito automático</a><a class="claro-havas-header__principal__nav__block__item__link" href="https://www.claro.com.pe/dudas-sobre-tu-facturacion">¿Problemas con tu facturación?</a><a class="claro-havas-header__principal__nav__block__item__link" href="https://www.claro.com.pe/glosario-de-facturacion/">Glosario </a><a class="claro-havas-header__principal__nav__block__item__link" href="https://www.claro.com.pe/Dudas-y-preguntas-frecuentes">Dudas y preguntas frecuentes</a></li>
+                <li class="claro-havas-header__principal__nav__block__item"><img class="claro-havas-header__principal__nav__block__item__image fnHeaderNavItemTargetImage" src="./public/images/servicios-moviles.jpg" loading="lazy"></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <nav class="claro-havas-header__principal__nav-mobile"><a class="claro-havas-header__principal__nav-mobile__link" href="tel:080000200"><img src="./public/images/ventas.svg" loading="lazy">Ventas</a><a class="claro-havas-header__principal__nav-mobile__link" href="https://tiendaclaro.pe/" target="_blank"><img src="./public/images/tienda.svg" loading="lazy">Tienda</a><a class="claro-havas-header__principal__nav-mobile__link" href="https://play.google.com/store/apps/details?id=com.claro.pe.miclaro&amp;hl=es_PE" target="_blank"><img src="./public/images/MiClaroMobile.svg" loading="lazy">Mi Claro</a></nav><a class="claro-havas-header__principal__mi-claro" href="https://mi.claro.com.pe/"><img src="./public/images/mi-claro.svg" loading="lazy">Mi Claro</a>
       </div>
+    </header>

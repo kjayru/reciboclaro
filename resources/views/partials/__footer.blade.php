@@ -53,7 +53,7 @@
                     <div class="content__list">
                       <h3>De Utilidad<span class="btn_down"></span></h3>
                       <ul>
-                        <!-- <li><a href="https://www.claro.com.pe/personas/estamos-juntos/fraccionamiento" target="_blank">Fracciona tu deuda</a></li> -->
+                        <li><a href="https://www.claro.com.pe/personas/estamos-juntos/fraccionamiento" target="_blank">Fracciona tu deuda</a></li>
                         <li><a href="https://www.claro.com.pe/consulta-de-numero/" target="_blank">Consulta de líneas</a></li>
                         <li><a href="https://www.claro.com.pe/mide-tu-velocidad/" target="_blank">Mide tu velocidad</a></li>
                         <li><a href="https://www.claro.com.pe/desbloquea-tu-celular/" target="_blank">Liberación de tu equipo móvil</a></li>
@@ -128,6 +128,7 @@
         <script type="text/javascript" src="/js/main_desing.js"></script>
         <script src="/js/plugins.js"></script>
         <script src="/js/jquery.reveal.js"></script>
+        <script src="/js/grt-youtube-popup.js"></script>
 
 
 
