@@ -32,8 +32,8 @@
         <!--<link rel="stylesheet" href="/css/header_footer.css">-->
 
         <link rel="stylesheet" href="/css/reset.css">
-        <link rel="stylesheet" href="/components/header/header.css">
-        <link rel="stylesheet" href="/components/footer/footer.css">
+        <link rel="stylesheet" href="/css/header.css">
+        <link rel="stylesheet" href="/css/footer.css">
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-41368265-9"></script>
     <script>

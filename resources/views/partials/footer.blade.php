@@ -29,11 +29,11 @@
 
         <footer class="claro-havas-footer">
       <div class="claro-havas-footer__principal">
-        <div class="claro-havas-footer__header"><img class="claro-havas-footer__header__logo" src="./public/images/claro-footer.svg" loading="lazy">
-          <aside class="claro-havas-footer__header__socials"><a class="claro-havas-footer__header__socials__link" href="#"><img src="./public/images/fb.svg" loading="lazy"></a><a class="claro-havas-footer__header__socials__link" href="#"><img src="./public/images/instagram.svg" loading="lazy"></a><a class="claro-havas-footer__header__socials__link" href="#"><img src="./public/images/twitter.svg" loading="lazy"></a><a class="claro-havas-footer__header__socials__link" href="#"><img src="./public/images/yt.svg" loading="lazy"></a></aside>
+        <div class="claro-havas-footer__header"><img class="claro-havas-footer__header__logo" src="/assets/images/claro-footer.svg" loading="lazy">
+          <aside class="claro-havas-footer__header__socials"><a class="claro-havas-footer__header__socials__link" href="#"><img src="/assets/images/fb.svg" loading="lazy"></a><a class="claro-havas-footer__header__socials__link" href="#"><img src="/assets/images/instagram.svg" loading="lazy"></a><a class="claro-havas-footer__header__socials__link" href="#"><img src="/assets/images/twitter.svg" loading="lazy"></a><a class="claro-havas-footer__header__socials__link" href="#"><img src="/assets/images/yt.svg" loading="lazy"></a></aside>
           <aside class="claro-havas-footer__header__legal">
-            <p class="claro-havas-footer__header__legal__item">Para ventas y servicios<a class="claro-havas-footer__header__legal__link" href="tel:080000200">0800 00200</a><a class="claro-havas-footer__header__legal__link2" href="https://www.claro.com.pe/atencion-de-reclamos/"><img src="./public/images/libro-de-reclamaciones-desktop.png" loading="lazy"></a></p>
-            <p class="claro-havas-footer__header__legal__item">Para información<a class="claro-havas-footer__header__legal__link" href="tel:080000123">0800 00123</a><a class="claro-havas-footer__header__legal__link2" href="https://denuncias.americamovil.com/" target="_blank"><img src="./public/images/boton_portal_denuncias_azul.svg" loading="lazy"></a></p>
+            <p class="claro-havas-footer__header__legal__item">Para ventas y servicios<a class="claro-havas-footer__header__legal__link" href="tel:080000200">0800 00200</a><a class="claro-havas-footer__header__legal__link2" href="https://www.claro.com.pe/atencion-de-reclamos/"><img src="/assets/images/libro-de-reclamaciones-desktop.png" loading="lazy"></a></p>
+            <p class="claro-havas-footer__header__legal__item">Para información<a class="claro-havas-footer__header__legal__link" href="tel:080000123">0800 00123</a><a class="claro-havas-footer__header__legal__link2" href="https://denuncias.americamovil.com/" target="_blank"><img src="/assets/images/boton_portal_denuncias_azul.svg" loading="lazy"></a></p>
           </aside>
         </div>
         <ul class="claro-havas-footer__list"><strong class="claro-havas-footer__list__title fnFooterShowItem">De Utilidad</strong>
@@ -62,7 +62,7 @@
           <li class="claro-havas-footer__list__item"><a class="claro-havas-footer__list__link" href="https://denuncias.americamovil.com/paginainicio.aspx">Portal de denuncias</a></li>
         </ul>
         <aside class="claro-havas-footer__list-mobile"><strong class="claro-havas-footer__list__title">Redes Sociales</strong>
-          <div class="claro-havas-footer__header__socials"><a class="claro-havas-footer__header__socials__link" href="#"><img src="./public/images/fb.svg" loading="lazy"></a><a class="claro-havas-footer__header__socials__link" href="#"><img src="./public/images/instagram.svg" loading="lazy"></a><a class="claro-havas-footer__header__socials__link" href="#"><img src="./public/images/twitter.svg" loading="lazy"></a><a class="claro-havas-footer__header__socials__link" href="#"><img src="./public/images/yt.svg" loading="lazy"></a></div>
+          <div class="claro-havas-footer__header__socials"><a class="claro-havas-footer__header__socials__link" href="#"><img src="/assets/images/fb.svg" loading="lazy"></a><a class="claro-havas-footer__header__socials__link" href="#"><img src="/assets/images/instagram.svg" loading="lazy"></a><a class="claro-havas-footer__header__socials__link" href="#"><img src="/assets/images/twitter.svg" loading="lazy"></a><a class="claro-havas-footer__header__socials__link" href="#"><img src="/assets/images/yt.svg" loading="lazy"></a></div>
         </aside>
       </div>
       <aside class="claro-havas-footer__bottom">
@@ -103,8 +103,8 @@
         <!--<script  src="/js/header_footer.js"></script>-->
 
 
-        <script src="/components/header/header.js"></script>
-        <script src="/components/footer/footer.js"></script>
+        <script src="/js/header.js"></script>
+        <script src="/js/footer.js"></script>
 
         
         @desktop 

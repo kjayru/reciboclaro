@@ -648,7 +648,7 @@
     display: block;
     width: 25px;
     height: 25px;
-    background: url("../../public/images/rigthFlecha.svg") no-repeat center center;
+    background: url("../assets/images/rigthFlecha.svg") no-repeat center center;
   }
   .claro-havas-header__principal__nav__item__title img {
     display: none;
@@ -725,7 +725,7 @@
     display: block;
     width: 25px;
     height: 25px;
-    background: url("../../public/images/rigthFlecha.svg") no-repeat center center;
+    background: url("../assets/images/rigthFlecha.svg") no-repeat center center;
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
     -webkit-transition: all ease 0.25s;
