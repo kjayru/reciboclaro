@@ -179,7 +179,8 @@ var main = (function(APP, win, $, undefined) {
               options: [
                 'cusco',
                 'huancayo',
-                'trujillo'
+                'trujillo',
+                'arequipa'
               ],
               active: 0
             }
@@ -248,6 +249,11 @@ var main = (function(APP, win, $, undefined) {
                 option:[
                   true,
                   false
+                ]
+              },
+              {
+                option:[
+                  true
                 ]
               },
               {
@@ -380,6 +386,8 @@ var main = (function(APP, win, $, undefined) {
             optionChoose = 1;
           }else if(option == 'trujillo'){
             optionChoose = 2;
+          }else if(option == 'arequipa'){
+            optionChoose = 3;
           }
         }
 
