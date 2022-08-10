@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="/css/newdesign.css">
 
 
-    <!-- estilso del menu y del footer -->
-    <link rel="stylesheet" href="/css/header_footer.css">
+    <!-- estilso del menu y del footer
+    <link rel="stylesheet" href="/css/header-footer.css"> -->
    
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-41368265-9"></script>
     <script>
@@ -24,13 +24,6 @@
      
       gtag('config', 'UA-41368265-9');
     </script>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-542V88J');</script>
-    <!-- End Google Tag Manager -->
 <style>
     .capavideo{
       display: none;
@@ -71,15 +64,11 @@
   </style>
 </head>
   <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-542V88J"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
     <div class="layout" id="app">
 
 
       <!-- menu antiguo -->
-      <!--<div class="layout__header">
+      <div class="layout__header">
         <div class="section1">
           <div class="section1__align">
             <div class="section1__header"><span> 
@@ -117,13 +106,13 @@
             </a>
           </div>
         </div>
-      </div>-->
+      </div>
 
 
 
 
       <!-- menu nuevo -->
-     <div class="just__header">
+      <div class="layout__header" style="display: none;">
         <div class="page1">
           <div class="page1__main">
             <section class="section1">
@@ -197,20 +186,84 @@
                           <ul>
                             <li class="desktopmenu movil">¿Qué necesitas saber?
                               <ul class="datos_movil">
-                                <li><a href="http://conoceturecibo.com/como-leer-tu-recibo-movil" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image1.svg" alt="">
-                                    <p>¿Cómo leer tu recibo móvil?</p></a></li>
-                                <li><a href="http://conoceturecibo.com/lugares-de-pago" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image2.svg" alt="">
-                                    <p>Lugares y medios de pago</p></a></li>
-                                <li><a href="http://conoceturecibo.com/lugares-de-pago/debito-automatico" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image3.svg" alt="">
-                                    <p>Afíliate al débito automático</p></a></li>
-                                <li><a href="http://conoceturecibo.com/dudas-sobre-tu-facturacion" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image4.svg" alt="">
-                                    <p>¿Problemas con tu facturación?</p></a></li>
-                                <li><a href="http://conoceturecibo.com/glosario-de-facturacion" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image5.svg" alt="">
-                                    <p>Glosario </p></a></li>
-                                <li><a href="http://conoceturecibo.com/dudas-y-preguntas-frecuentes" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image6.svg" alt="">
-                                    <p>Dudas y preguntas frecuentes</p></a></li>
+                                <li><a href="https://www.claro.com.pe/personas/movil/" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/a2614b2f-49a8-4d7d-ab02-b55a6461f298-MovilMundoMovil.svg" alt="">
+                                    <p>Mundo Movil</p></a></li>
+                                <li><a href="https://www.claro.com.pe/personas/movil/postpago/" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/45fa1558-41ac-4085-8e05-c78cebd9aa47-MovilPostpago.svg" alt="">
+                                    <p>Móvil Postpago</p></a></li>
+                                <li><a href="https://www.claro.com.pe/personas/movil/prepago/" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/6eabf8a9-8bdd-4496-9acf-2a06c3a7b49b-MovilPrepago.svg" alt="">
+                                    <p>Móvil Prepago</p></a></li>
+                                <li><a href="https://www.claro.com.pe/personas/movil/activa-chip/" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/772d8968-d8cf-4192-b38d-78855b97842a-Chip.svg" alt="">
+                                    <p>Activa tu chip</p></a></li>
+                                <li><a href="https://www.claro.com.pe/personas/movil/prepago/paquetes/" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/1d9e0ba8-4927-453b-9f34-3fd7044533f0-MovilCompradepaquetes.svg" alt="">
+                                    <p>Compra de Paquetes</p></a></li>
+                                <li><a href="https://roaming.claro.com.pe/" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/a22fd4c4-6ff1-41ec-a2da-165955ff4c52-MovilRoaming.svg" alt="">
+                                    <p>Roaming</p></a></li>
+                                <li><a href="https://www.claro.com.pe/portabilidad/" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/dbfb1491-2ad8-4323-a1dd-fdd94881f7b2-Portabilidad.svg" alt="">
+                                    <p>Cámbiate a Claro</p></a></li>
                               </ul>
                             </li>
+
+                           <!--  <li class="desktopmenu hogar">Hogar
+                              <ul class="datos_hogar">
+                                <li><a href="https://www.claro.com.pe/personas/hogar/" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/5451ad91-c14f-4a18-94cd-86784c28a0c2-HogarMundoHogar.svg" alt="">
+                                    <p>Mundo Hogar</p></a></li>
+                                <li><a href="https://www.claro.com.pe/personas/hogar/planes/" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/5b7cdb8e-8c2b-4519-8c82-8449da169de4-HogarPaquetes2Playy3Play.svg" alt="">
+                                    <p>Planes Hogar</p></a></li>
+                                <li><a href="https://www.claro.com.pe/personas/hogar/internet-fijo-inalambrico/" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/5dd7ba14-5ba3-40cb-9ecb-15e058aeace2-HogarInternetInalaCC81mbrico.svg" alt="">
+                                    <p>Internet Fijo Inalámbrico</p></a></li>
+                                <li><a href="https://www.claro.com.pe/personas/hogar/tv/" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/a1efa307-7d60-489d-ac58-17897ca2e065-HogarTV.svg" alt="">
+                                    <p>Televisión</p></a></li>
+                                <li><a href="https://www.claro.com.pe/personas/hogar/promociones/" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/e057eb40-1b3b-4cec-b81c-cbc7ac738ff8-HogarPromocioneshogar.svg" alt="">
+                                    <p>Promociones Hogar</p></a></li>
+                              </ul>
+                            </li>
+                            <li class="desktopmenu beneficios">Beneficios
+                              <ul class="datos_beneficios">
+                                <li><a href="https://www.claro.com.pe/personas/beneficios/claro-club/" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/e1883202-f54c-42c9-9008-1526444b320e-BeneficiosClaroClub.svg" alt="">
+                                    <p>Claro Club</p></a></li>
+                                <li><a href="https://www.claro.com.pe/personas/beneficios/full-claro/" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/03da8c25-8901-4740-87a8-db794495f8e5-BeneficiosFullClaro.svg" alt="">
+                                    <p>Full Claro</p></a></li>
+                                <li><a href="https://www.claro.com.pe/personas/app/" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/d0195b61-ded5-425f-8043-d3a2ac916530-BeneficiosAppsClaro.svg" alt="">
+                                    <p>Apps Claro</p></a></li>
+                                <li><a href="https://www.claro.com.pe/personas/beneficios/movil/" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/a97ea922-f657-40b5-bed7-5ada18164a07-Beneficios_Beneficios_Movil.svg" alt="">
+                                    <p>Beneficios Móvil</p></a></li>
+                                <li><a href="https://www.claro.com.pe/personas/beneficios/hogar/" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/bec927d9-962d-403a-85ab-4191c55a4064-BeneficiosBeneficiosHogar.svg" alt="">
+                                    <p>Beneficios Hogar</p></a></li>
+                              </ul>
+                            </li> -->
+                            <!-- <li class="desktopmenu ayuda">¿Necesitas Ayuda?
+                              <ul class="datos_ayuda">
+                                <li><a href="https://comunidad.claro.com.pe/" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/d5920705-9dd8-4c2b-8220-657ecf002ca3-AyudaComunidad.svg" alt="">
+                                    <p>Comunidad Claro</p></a></li>
+                                <li class="ayuda-contactanos"><a><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/79027d9e-4754-4a66-b487-0f104df0ee47-AyudaContaCC81ctanos.svg" alt="">
+                                    <p>Contáctanos</p></a>
+                                  <ul class="ayuda-contactanos-info">
+                                    <li><a href="https://www.claro.com.pe/contactanos/" target="_blank">Teléfonos de Contacto</a></li>
+                                    <li><a href="https://www.claro.com.pe/atencion-de-reclamos/" target="_blank">Atención de Reclamos</a></li>
+                                    <li><a href="http://cobertura.claro.com.pe/centros-de-atencion.php" target="_blank">Centro de atención</a></li>
+                                  </ul>
+                                </li>
+                                <li class="ayuda-hazlo"><a><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/7046a87d-f895-49fc-b3ce-61e08c8395d8-AyudaHazlotuCC81mismo.svg" alt="">
+                                    <p>Hazlo tú mismo</p></a>
+                                  <ul class="ayuda-hazlo-info">
+                                    <li><a href="https://www.claro.com.pe/personas/movil/activa-chip/" target="_blank">Activa tu chip</a></li>
+                                    <li><a href="https://www.claro.com.pe/mide-tu-velocidad/" target="_blank">Mide tu velocidad</a></li>
+                                    <li><a href="https://www.claro.com.pe/personas/beneficios/movil/transferencia-de-saldo/" target="_blank">Transferencia de Saldo </a></li>
+                                    <li><a href="https://www.claro.com.pe/desbloquea-tu-celular/" target="_blank">Desbloquea tu equipo</a></li>
+                                    <li><a href="https://mi.claro.com.pe/wps/portal/miclaro/landing2/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziPQLdXT2cTAz8DFxDLQ0Cg_3NTPwMDYwNvMz0wwkpiAJKG-AAjgZA_VFgJWYGHu4ensEGvv7GgWYGjiFh7p6uJiYGBkZmUAV4zCjIjTDIdFRUBAA48-xV/dz/d5/L2dBISEvZ0FBIS9nQSEh/" target="_blank">Consulta de Saldo</a></li>
+                                  </ul>
+                                </li>
+                                <li class="ayuda-aprende"><a><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/c1d6c853-40ad-4d51-b384-e8c3b8b0feb4-AyudaAprendeClaro.svg" alt="">
+                                    <p>Aprende Claro</p></a>
+                                  <ul class="ayuda-aprende-info">
+                                    <li><a href="https://www.claro.com.pe/consulta-de-numero/" target="_blank">Consulta tus números </a></li>
+                                    <li><a href="http://cobertura.claro.com.pe/" target="_blank">Zonas de Cobertura</a></li>
+                                  </ul>
+                                </li>
+                                <li><a href="https://www.claro.com.pe/personas/centro-de-ayuda/" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/97db540a-3a68-47cf-8838-6c331fbe22b1-Ayuda.svg" alt="">
+                                    <p>Centro de Ayuda</p></a></li>
+                              </ul>
+                            </li> -->
                           </ul>
                         </div>
                       </div>
@@ -230,15 +283,73 @@
                           <p><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/d24dcece-79fa-4f32-81fb-24aa60efcc3a-Movil.svg" alt="">  ¿Qué necesitas saber? </p>
                           <div class="detail">
                             <ul> 
-                              <li><a href="http://conoceturecibo.com/como-leer-tu-recibo-movil" target="_blank">¿Cómo leer tu recibo móvil?</a></li>
-                              <li><a href="http://conoceturecibo.com/lugares-de-pago" target="_blank">Lugares y medios de pago</a></li>
-                              <li><a href="http://conoceturecibo.com/lugares-de-pago/debito-automatico" target="_blank">Afíliate al débito automático</a></li>
-                              <li><a href="http://conoceturecibo.com/dudas-sobre-tu-facturacion" target="_blank">¿Problemas con tu facturación?</a></li>
-                              <li><a href="http://conoceturecibo.com/glosario-de-facturacion" target="_blank">Glosario </a></li>
-                              <li><a href="http://conoceturecibo.com/dudas-y-preguntas-frecuentes" target="_blank">Dudas y preguntas frecuentes</a></li>
+                              <li><a href="https://www.claro.com.pe/personas/movil/" target="_blank">Mundo Movil</a></li>
+                              <li><a href="https://www.claro.com.pe/personas/movil/postpago/" target="_blank">Móvil Postpago</a></li>
+                              <li><a href="https://www.claro.com.pe/personas/movil/prepago/" target="_blank">Móvil Prepago</a></li>
+                              <li><a href="https://www.claro.com.pe/personas/movil/activa-chip/" target="_blank">Activa tu chip</a></li>
+                              <li><a href="https://www.claro.com.pe/personas/movil/prepago/paquetes/" target="_blank">Compra de Paquetes</a></li>
+                              <li><a href="https://roaming.claro.com.pe/" target="_blank">Roaming</a></li>
+                              <li><a href="https://www.claro.com.pe/portabilidad/" target="_blank">Cámbiate a Claro</a></li>
                             </ul>
                           </div>
                         </li>
+
+                        
+                        <!-- <li class="box-menu">
+                          <p><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/888d73f8-c9b9-47c5-af4f-0baecb093015-Hogar.svg" alt="">    Hogar</p>
+                          <div class="detail">
+                            <ul> 
+                              <li><a href="https://www.claro.com.pe/personas/hogar/" target="_blank">Mundo Hogar</a></li>
+                              <li><a href="https://www.claro.com.pe/personas/hogar/planes/" target="_blank">Planes Hogar</a></li>
+                              <li><a href="https://www.claro.com.pe/personas/hogar/internet-fijo-inalambrico/" target="_blank">Internet Fijo Inalámbrico</a></li>
+                              <li><a href="https://www.claro.com.pe/personas/hogar/tv/" target="_blank">Televisión</a></li>
+                              <li><a href="https://www.claro.com.pe/personas/hogar/promociones/" target="_blank">Promociones Hogar</a></li>
+                            </ul>
+                          </div>
+                        </li>
+                        <li class="box-menu">
+                          <p><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/aad4daa1-9f3a-44c5-86a2-f1ef2b688cec-Beneficios.svg" alt="">   Beneficios</p>
+                          <div class="detail">
+                            <ul> 
+                              <li><a href="https://www.claro.com.pe/personas/beneficios/claro-club/" target="_blank">Claro Club</a></li>
+                              <li><a href="https://www.claro.com.pe/personas/beneficios/full-claro/" target="_blank">Full Claro</a></li>
+                              <li><a href="https://www.claro.com.pe/personas/app/" target="_blank">Apps Claro</a></li>
+                              <li><a href="https://www.claro.com.pe/personas/beneficios/movil/" target="_blank">Beneficios Móvil</a></li>
+                              <li><a href="https://www.claro.com.pe/personas/beneficios/hogar/" target="_blank">Beneficios Hogar</a></li>
+                            </ul>
+                          </div>
+                        </li>
+                        <li class="box-menu">
+                          <p><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/9910bb6d-609d-43c5-adc4-9742ce36ec6b-Ayuda.svg" alt="">    ¿Necesitas Ayuda?</p>
+                          <div class="detail">
+                            <ul> 
+                              <li><a href="https://comunidad.claro.com.pe/" target="_blank">Comunidad Claro</a></li>
+                              <li class="sub-menu"><a>Contáctanos</a>
+                                <ul class="detail-sub">
+                                  <li><a href="https://www.claro.com.pe/contactanos/" target="_blank">Teléfonos de Contacto</a></li>
+                                  <li><a href="https://www.claro.com.pe/atencion-de-reclamos/" target="_blank">Atención de Reclamos</a></li>
+                                  <li><a href="http://cobertura.claro.com.pe/centros-de-atencion.php" target="_blank">Centro de atención</a></li>
+                                </ul>
+                              </li>
+                              <li class="sub-menu"><a>Hazlo tú mismo</a>
+                                <ul class="detail-sub">
+                                  <li><a href="https://www.claro.com.pe/personas/movil/activa-chip/" target="_blank">Activa tu chip</a></li>
+                                  <li><a href="https://www.claro.com.pe/mide-tu-velocidad/" target="_blank">Mide tu velocidad</a></li>
+                                  <li><a href="https://www.claro.com.pe/personas/beneficios/movil/transferencia-de-saldo/" target="_blank">Transferencia de Saldo </a></li>
+                                  <li><a href="https://www.claro.com.pe/desbloquea-tu-celular/" target="_blank">Desbloquea tu equipo</a></li>
+                                  <li><a href="https://mi.claro.com.pe/wps/portal/miclaro/landing2/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziPQLdXT2cTAz8DFxDLQ0Cg_3NTPwMDYwNvMz0wwkpiAJKG-AAjgZA_VFgJWYGHu4ensEGvv7GgWYGjiFh7p6uJiYGBkZmUAV4zCjIjTDIdFRUBAA48-xV/dz/d5/L2dBISEvZ0FBIS9nQSEh/" target="_blank">Consulta de Saldo</a></li>
+                                </ul>
+                              </li>
+                              <li class="sub-menu"><a>Aprende Claro </a>
+                                <ul class="detail-sub">
+                                  <li><a href="https://www.claro.com.pe/consulta-de-numero/" target="_blank">Consulta tus números </a></li>
+                                  <li><a href="http://cobertura.claro.com.pe/" target="_blank">Zonas de Cobertura</a></li>
+                                </ul>
+                              </li>
+                              <li><a href="https://www.claro.com.pe/personas/centro-de-ayuda/" target="_blank">Centro de Ayuda</a></li>
+                            </ul>
+                          </div>
+                        </li> -->
                       </ul>
                     </div>
                     <div class="movil-list-app">
@@ -269,7 +380,7 @@
       
 
       <!-- footer antiguo -->
-      <!--<div class="layout__footer">
+      <div class="layout__footer">
         <div class="section1">
           <div class="section1__align">
               <div class="section1__footer"><span> <img src="/assets/claro.png">Todos los derechos reservados, Claro 2018</span><span> 
@@ -282,13 +393,13 @@
               </div>
           </div>
         </div>
-      </div>-->
+      </div>
 
 
 
 
       <!-- footer nuevo -->
-      <div class="just__footer">
+      <div class="layout__footer" style="display: none;">
         <div class="page1">
           <div class="page1__main">
             <section class="section1">
@@ -390,8 +501,8 @@
     <script src="/js/pagehome_slider.js"></script>
 
 
-<!--     header foooter js-->
-    <script  src="/js/header_footer.js"></script> 
+<!--     header foooter js
+    <script  src="/js/header-footer.js"></script> -->
 
 
 

@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="/css/common.css?v={{ uniqid() }}">
 
     <link rel="stylesheet" href="/css/newdesign.css">
+    <link rel="stylesheet" href="/css/pgwmodal.css">
 
 
     <!-- estilso del menu y del footer -->
@@ -388,6 +389,7 @@
     <script type="text/javascript" src="/js/main_desing.js"></script>
     <script src="/js/owl.carousel.js"></script>
     <script src="/js/pagehome_slider.js"></script>
+    <script src="/js/pgwmodal.js"></script>
 
 
 <!--     header foooter js-->

@@ -198,17 +198,17 @@
                           <ul>
                             <li class="desktopmenu movil">¿Qué necesitas saber?
                               <ul class="datos_movil">
-                                <li><a href="http://conoceturecibo.com/como-leer-tu-recibo-movil" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image1.svg" alt="">
+                                <li><a href="/como-leer-tu-recibo-movil" ><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image1.svg" alt="">
                                     <p>¿Cómo leer tu recibo móvil?</p></a></li>
-                                <li><a href="http://conoceturecibo.com/lugares-de-pago" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image2.svg" alt="">
+                                <li><a href="/lugares-de-pago" ><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image2.svg" alt="">
                                     <p>Lugares y medios de pago</p></a></li>
-                                <li><a href="http://conoceturecibo.com/lugares-de-pago/debito-automatico" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image3.svg" alt="">
+                                <li><a href="/lugares-de-pago/debito-automatico" ><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image3.svg" alt="">
                                     <p>Afíliate al débito automático</p></a></li>
-                                <li><a href="http://conoceturecibo.com/dudas-sobre-tu-facturacion" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image4.svg" alt="">
+                                <li><a href="/dudas-sobre-tu-facturacion" ><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image4.svg" alt="">
                                     <p>¿Problemas con tu facturación?</p></a></li>
-                                <li><a href="http://conoceturecibo.com/glosario-de-facturacion" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image5.svg" alt="">
+                                <li><a href="/glosario-de-facturacion" ><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image5.svg" alt="">
                                     <p>Glosario </p></a></li>
-                                <li><a href="http://conoceturecibo.com/dudas-y-preguntas-frecuentes" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image6.svg" alt="">
+                                <li><a href="/dudas-y-preguntas-frecuentes" ><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/menu_image6.svg" alt="">
                                     <p>Dudas y preguntas frecuentes</p></a></li>
                               </ul>
                             </li>
@@ -231,12 +231,12 @@
                           <p><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/d24dcece-79fa-4f32-81fb-24aa60efcc3a-Movil.svg" alt="">  ¿Qué necesitas saber? </p>
                           <div class="detail">
                             <ul> 
-                              <li><a href="http://conoceturecibo.com/como-leer-tu-recibo-movil" target="_blank">¿Cómo leer tu recibo móvil?</a></li>
-                              <li><a href="http://conoceturecibo.com/lugares-de-pago" target="_blank">Lugares y medios de pago</a></li>
-                              <li><a href="http://conoceturecibo.com/lugares-de-pago/debito-automatico" target="_blank">Afíliate al débito automático</a></li>
-                              <li><a href="http://conoceturecibo.com/dudas-sobre-tu-facturacion" target="_blank">¿Problemas con tu facturación?</a></li>
-                              <li><a href="http://conoceturecibo.com/glosario-de-facturacion" target="_blank">Glosario </a></li>
-                              <li><a href="http://conoceturecibo.com/dudas-y-preguntas-frecuentes" target="_blank">Dudas y preguntas frecuentes</a></li>
+                              <li><a href="/como-leer-tu-recibo-movil" >¿Cómo leer tu recibo móvil?</a></li>
+                              <li><a href="/lugares-de-pago" >Lugares y medios de pago</a></li>
+                              <li><a href="/lugares-de-pago/debito-automatico" >Afíliate al débito automático</a></li>
+                              <li><a href="/dudas-sobre-tu-facturacion" >¿Problemas con tu facturación?</a></li>
+                              <li><a href="/glosario-de-facturacion" >Glosario </a></li>
+                              <li><a href="/dudas-y-preguntas-frecuentes" >Dudas y preguntas frecuentes</a></li>
                             </ul>
                           </div>
                         </li>
@@ -295,27 +295,30 @@
             <section class="section1">
               <div class="section1__align">
                 <div class="section1__header">
-                  <div class="content">
-                    <div class="content__list first">
-                      <div class="logo"><a href="https://www.claro.com.pe/" target="_blank"><img src="https://static.claro.com.pe/landings/havas/header-footer-final/v1/assets/logo_claro.svg" alt=""></a>
-                        <p>Todos los derechos reservados 2020</p>
+                  <div class="block">
+                    <div class="block__list first">
+                      <div class="logo"><a href="https://www.claro.com.pe/" target="_blank"><img src="assets/logo_claro.svg" alt=""></a>
+                        <p>Todos los derechos reservados 2022</p>
                       </div>
                       <div class="social"><a class="ico_facebook" href="https://www.facebook.com/AmericaMovilPeruSAC" target="_blank"></a><a class="ico_instagram" href="https://www.instagram.com/claroperu/" target="_blank"></a><a class="ico_twitter" href="https://twitter.com/claroperu" target="_blank"></a><a class="ico_youtube" href="https://www.youtube.com/claroperu" target="_blank"></a></div>
                       <div class="info">
                         <blockquote>
                           <p>Para ventas y servicios</p>
                           <h4><a href="tel:0800 00200">0800 00200</a></h4>
+                          <div class="reclamaciones"><a href="https://www.claro.com.pe/atencion-de-reclamos/" target="_blank"><img src="assets/libro-de-reclamaciones-desktop.png" alt=""></a></div>
                         </blockquote>
                         <blockquote>
-                          <p>Contáctanos</p>
+                          <p>Para información</p>
                           <h4><a href="tel:0800 00123">0800 00123</a></h4>
+                          <div class="reclamaciones"><a href="https://denuncias.americamovil.com/" target="_blank"><img src="assets/denuncias_azul.svg" alt=""></a></div>
                         </blockquote>
                       </div>
                     </div>
-                    <div class="content__list">
+                    <div class="block__list">
                       <h3>De Utilidad<span class="btn_down"></span></h3>
                       <ul>
-                        <li><a href="https://www.claro.com.pe/personas/estamos-juntos/fraccionamiento" target="_blank">Fracciona tu deuda</a></li>
+                        <li><a href="https://www.claro.com.pe/5g" target="_blank">Claro 5G</a></li>
+                        <li><a href="https://www.claro.com.pe/personas/movil/dias-claro-fans/" target="_blank">Días Claro Fans </a></li>
                         <li><a href="https://www.claro.com.pe/consulta-de-numero/" target="_blank">Consulta de líneas</a></li>
                         <li><a href="https://www.claro.com.pe/mide-tu-velocidad/" target="_blank">Mide tu velocidad</a></li>
                         <li><a href="https://www.claro.com.pe/desbloquea-tu-celular/" target="_blank">Liberación de tu equipo móvil</a></li>
@@ -323,22 +326,26 @@
                         <li><a href="https://static.claro.com.pe/img/otros/Llamada-por-llamada.pdf" target="_blank">Llamada por llamada</a></li>
                       </ul>
                     </div>
-                    <div class="content__list">
+                    <div class="block__list">
                       <h3>Nos Hacemos Cargo<span class="btn_down"></span></h3>
                       <ul>
                         <li><a href="https://www.claro.com.pe/legal-y-regulatorio/devoluciones-por-interrupciones/" target="_blank">Devoluciones por interrupciones</a></li>
                         <li><a href="https://www.claro.com.pe/atencion-de-reclamos/" target="_blank">Atención de reclamos</a></li>
-                        <li><a href="https://www.claro.com.pe/atencion-de-reclamos/" target="_blank">Consulta de reclamos</a></li>
-                        <li><a href="https://www.claro.com.pe/atencion-de-reclamos/" target="_blank">Libro de reclamaciones</a></li>
+                        <li><a href="https://www.claro.com.pe/atencion-de-reclamos/consulta-el-estado-de-tu-reclamo/" target="_blank">Consulta de reclamos</a></li>
+                        <li><a href="https://static.claro.com.pe/img/otros/Comunicado-Adquirientes-iPhone-6-6S-y-SE.pdf" target="_blank">Adquirientes iPhone 6, 6S y SE</a></li>
+                        <li><a href="https://static.claro.com.pe/img/otros/Comunicado_a_Clientes_BlackBerry.pdf" target="_blank">Comunicado para clientes BlackBerry</a></li>
+                        <li><a href="https://www.claro.com.pe/no-al-phishing" target="_blank">Mensaje de Seguridad</a></li>
                       </ul>
                     </div>
-                    <div class="content__list">
+                    <div class="block__list">
                       <h3>Institucional<span class="btn_down"></span></h3>
                       <ul>
                         <li><a href="https://www.claro.com.pe/institucional/sobre-nosotros/" target="_blank">Sobre nosotros</a></li>
                         <li><a href="https://www.claro.com.pe/institucional/sostenibilidad/" target="_blank">Sostenibilidad</a></li>
-                        <li><a href="https://www.claro.com.pe/trabajos-de-mantenimiento/" target="_blank">Trabajos de mantenimiento</a></li>
                         <li><a href="https://www.claro.com.pe/institucional/centro-de-prensa/" target="_blank">Centro de prensa</a></li>
+                        <li><a href="https://trabajaenclaro.claro.com.pe/" target="_blank">Trabaja en Claro</a></li>
+                        <li><a href="https://www.claro.com.pe/proveedores/" target="_blank">Proveedores</a></li>
+                        <li><a href="https://www.claro.com.pe/trabajos-de-mantenimiento/" target="_blank">Trabajos de mantenimiento</a></li>
                         <li><a href="https://denuncias.americamovil.com/paginainicio.aspx" target="_blank">Portal de denuncias</a></li>
                       </ul>
                     </div>
@@ -346,26 +353,26 @@
                 </div>
                 <div class="section1__main">
                   <div class="title">Legales<span class="btn_down"></span></div>
-                  <div class="content">
-                    <div class="content__list first">
+                  <div class="block">
+                    <div class="block__list first">
                       <ul>
-                        <li><a href="https://static.claro.com.pe/img/otros/Aviso_Legal_de_uso_del_sitio_web.pdf" target="_blank">Términos y condiciones de la web</a></li>
+                        <li><a href="https://static.claro.com.pe/img/otros/Aviso_Legal_de_uso_del_sitio_web_08.pdf" target="_blank">Términos y condiciones de la web</a></li>
                         <li><a href="https://www.claro.com.pe/garantia_equipos/" target="_blank">Condiciones de garantía de equipos</a></li>
                       </ul>
                     </div>
-                    <div class="content__list">
+                    <div class="block__list">
                       <ul>
                         <li><a href="https://www.claro.com.pe/proteccion-datos/" target="_blank">Política de Privacidad</a></li>
                         <li><a href="https://www.claro.com.pe/legal-y-regulatorio/derechos-arco/" target="_blank">Derechos ARCO</a></li>
                       </ul>
                     </div>
-                    <div class="content__list">
+                    <div class="block__list">
                       <ul>
                         <li><a href="https://serviciosweb.osiptel.gob.pe/ConsultaSIRT/Buscar/frmConsultaTar.aspx" target="_blank">Sistema de consultas Tarifarias</a></li>
-                        <li><a href="https://static.claro.com.pe/img/otros/Medidas_Relativas_a_Neutralidad_implementadas_mayo_20.pdf" target="_blank">Neutralidad de Red</a></li>
+                        <li><a href="https://static.claro.com.pe/img/otros/Medidas_Relativas_a_Neutralidad_de_Red_Octubre2021.pdf" target="_blank">Neutralidad de Red</a></li>
                       </ul>
                     </div>
-                    <div class="content__list">
+                    <div class="block__list">
                       <ul>
                         <li><a href="https://serviciosweb.osiptel.gob.pe/Devoluciones/" target="_blank">Sistema de Consulta de Deudas</a></li>
                         <li><a href="https://www.claro.com.pe/legal-y-regulatorio/" target="_blank">Información abonados y usuarios</a></li>
@@ -388,7 +395,7 @@
     <script type="text/javascript" src="/js/main_v3.js?v={{ uniqid()}}"></script>
     <script type="text/javascript" src="/js/main_desing.js"></script>
     <script src="/js/owl.carousel.js"></script>
-    <script src="/js/pagehome_slider.js"></script>
+    
     <!--<script src="/js/pgwmodal.js"></script>-->
     <script type="text/javascript" src="/js/vue-slick.js" charset="utf-8"></script>
     <script type="text/javascript" src="/js/vue-modal.js"></script>
@@ -453,6 +460,7 @@
          });
     </script>
 
-    <script type="text/javascript" src="/js/common.js?v={{uniqid()}}"></script>
+    <script type="text/javascript" src="/js/common.js"></script>
+    <script src="/js/pagehome_slider.js"></script>
   </body>
 </html>

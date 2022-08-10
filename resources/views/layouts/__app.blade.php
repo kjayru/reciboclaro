@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="/css/common.css?v={{ uniqid() }}">
 
     <link rel="stylesheet" href="/css/newdesign.css">
-    <link rel="stylesheet" href="/css/pgwmodal.css">
+    <!--<link rel="stylesheet" href="/css/pgwmodal.css">-->
 
 
     <!-- estilso del menu y del footer -->
@@ -382,14 +382,16 @@
 
     </div>
    
-
+    <script type="text/javascript" src="/js/vue.js"></script>
     <script type="text/javascript" src="/js/library/slick.js" charset="utf-8"></script>
 
     <script type="text/javascript" src="/js/main_v3.js?v={{ uniqid()}}"></script>
     <script type="text/javascript" src="/js/main_desing.js"></script>
     <script src="/js/owl.carousel.js"></script>
     <script src="/js/pagehome_slider.js"></script>
-    <script src="/js/pgwmodal.js"></script>
+    <!--<script src="/js/pgwmodal.js"></script>-->
+    <script type="text/javascript" src="/js/vue-slick.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/js/vue-modal.js"></script>
 
 
 <!--     header foooter js-->
@@ -450,5 +452,7 @@
             })
          });
     </script>
+
+    <script type="text/javascript" src="/js/common.js?v={{uniqid()}}"></script>
   </body>
 </html>
