@@ -31,9 +31,9 @@
         <!-- este es el estilo del menu y footer -->
         <!--<link rel="stylesheet" href="/css/header_footer.css">-->
 
-        <link rel="stylesheet" href="./public/css/reset.css">
-        <link rel="stylesheet" href="./components/header/header.css">
-        <link rel="stylesheet" href="./components/footer/footer.css">
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/components/header/header.css">
+        <link rel="stylesheet" href="/components/footer/footer.css">
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-41368265-9"></script>
     <script>

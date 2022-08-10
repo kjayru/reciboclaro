@@ -103,8 +103,8 @@
         <!--<script  src="/js/header_footer.js"></script>-->
 
 
-        <script src="./components/header/header.js"></script>
-        <script src="./components/footer/footer.js"></script>
+        <script src="/components/header/header.js"></script>
+        <script src="/components/footer/footer.js"></script>
 
         
         @desktop 
