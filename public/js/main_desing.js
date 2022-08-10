@@ -314,7 +314,7 @@
 
     //console.log(divBcp)
 
-    console.log(tabSearch)
+    /*console.log(tabSearch)
     let center = tabSearch.slice(5)
 
     let caractCenter = center.length
@@ -509,7 +509,7 @@
         infoBim.classList.add('active')
       }
 
-    })
+    })*/
 
   }
 
