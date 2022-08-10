@@ -191,6 +191,10 @@
 .claro-havas-header__top__countries__selected {
   cursor: pointer;
 }
+
+.claro-havas-header__top__countries__selected img {
+  display: inline;
+}
 .claro-havas-header__top__countries__selected img:last-child {
   width: 12px;
   margin-left: 10px;
