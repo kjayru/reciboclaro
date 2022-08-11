@@ -1001,6 +1001,7 @@ img {
 
 .espacioHeader {
   height: 55px;
+  display: none;
 }
 .sliderPrincipal {
   height: 456px;

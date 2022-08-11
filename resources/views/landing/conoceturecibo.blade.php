@@ -27,7 +27,7 @@
                 @foreach($recibos as $key => $recibo)
                     
                     <li>
-                        <a href="/como-leer-tu-recibo-movil/{{ $recibo->slug }}" @if($recibo->slug == $pag) class="act" @endif >  Hoja {{ $key +1 }}</a>
+                        <a href="/como-leer-tu-recibo-movil/{{ $recibo->slug }}" data-page="{{$key+1}}" data-hoja="{{$recibo->slug}}" @if($recibo->slug == $pag) class="act" @endif >  Hoja {{ $key +1 }}</a>
                     </li>
                   
                  @endforeach
@@ -36,7 +36,7 @@
             @foreach($invoices as $key => $invoice) 
             
               @if($invoice->mobile==0)
-                <div class="hoja hoja{{ $key + 1}} act">
+                <div class="hoja hoja{{ $key + 1}} act" id="hoja{{ $key + 1}}" data-id="{{@$item->id}}">
                     <div class="dominaturecibo__contenido">
                         <div class="dominaturecibo__recibo recibo--web">
                                 <img class="dominaturecibo__recibo__imagen" src="/storage/{{ $invoice->imagen }}" alt="">

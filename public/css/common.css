@@ -9320,14 +9320,14 @@ color: #fff;
 /* FIN Cambios 04/10/2021 */
 
 
-.layout__main .page2 .section21 {
+.section21 {
      width: 100%;
      background-color: #f9f9f9;
      position: relative;
      
 }
 
-.layout__main .page2  .section21__align{
+.section21__align{
      padding: 48px 0 ;
      width:    100%;
     overflow: hidden;
@@ -9338,49 +9338,49 @@ color: #fff;
 }
 
 
-.layout__main .page2  .section21__align.hide{
+.section21__align.hide{
      max-height: 150px;
      transition:  max-height  0.3s ease-out ;
 }
 
 @media screen and (max-width: 650px) {
-     .layout__main .page2  .section21__align.hide{
+     .section21__align.hide{
           max-height:    120px;
      }
 }
 
 @media screen and (max-width: 1025px) {
-     .layout__main .page2  .section21__align{
+     .section21__align{
           width:    900px;
      }
 }
 
 @media screen and (max-width: 769px) {
-     .layout__main .page2  .section21__align{
+     .section21__align{
           width:    700px;
      }
 }
 
 @media screen and (max-width: 650px) {
-     .layout__main .page2  .section21__align{
+     .section21__align{
           width:    100%;
            padding: 30px 24px ;
      }
 }
 
-.layout__main .page2 .section21__header{
+.section21__header{
      margin-bottom:      60px;
      width:    100%;
 }
 
 @media screen and (max-width: 650px) {
-     .layout__main .page2 .section21__header{
+     .section21__header{
           margin-bottom:    35px;
      }
 }
 
 
-.layout__main .page2 .section21__header .content{
+.section21__header .content{
      width: 100%;
      display: -webkit-box;
      display: -moz-box;
@@ -9407,26 +9407,26 @@ color: #fff;
 }
 
 
-.layout__main .page2 .section21__header .content__title{
+.section21__header .content__title{
      width:    650px;
 
 }
 
 @media screen and (max-width: 769px) {
-     .layout__main .page2 .section21__header .content__title{
+     .section21__header .content__title{
           width:    500px;
      }
 }
 
 @media screen and (max-width: 650px) {
-     .layout__main .page2 .section21__header .content__title{
+     .section21__header .content__title{
           width:   88%;
      }
 }
 
 
 
-.layout__main .page2 .section21__header .content__title span{
+.section21__header .content__title span{
 
     display: inline-block;
     font-weight: bold;
@@ -9436,7 +9436,7 @@ color: #fff;
 }
 
 
-.layout__main .page2 .section21__header .content__title h3{
+.section21__header .content__title h3{
     font-family: Roboto;
     font-weight: bold;
    font-size: 32px;
@@ -9445,24 +9445,24 @@ color: #fff;
 }
 
 @media screen and (max-width: 650px) {
-    .layout__main .page2 .section21__header .content__title h3{
+    .section21__header .content__title h3{
      font-size:     22px;
     } 
 }
 
-.layout__main .page2 .section21__header .content__close{
+.section21__header .content__close{
      width:    200px;
      text-align:    right;    
      cursor:   pointer;  
 }
 
 @media screen and (max-width: 650px) {
-     .layout__main .page2 .section21__header .content__close{
+     .section21__header .content__close{
           width:   10%;
      }
 }
 
-.layout__main .page2 .section21__header .content__close span{
+.section21__header .content__close span{
 
     font-family: Roboto;
     font-weight: bold;
@@ -9476,13 +9476,13 @@ color: #fff;
 }
 
 @media screen and (max-width: 650px) {
-     .layout__main .page2 .section21__header .content__close span{
+     .section21__header .content__close span{
           display:  none;
      }
 }
 
 @media screen and (max-width: 650px) {
-     .layout__main .page2 .section21__header .content__close img{
+     .section21__header .content__close img{
           width:   36px;
           height:   36px;
      }
@@ -9490,7 +9490,7 @@ color: #fff;
 
 
 
-.layout__main .page2 .section21__main .content{
+.section21__main .content{
      width: 100%;
      display: -webkit-box;
      display: -moz-box;
@@ -9517,12 +9517,12 @@ color: #fff;
 }
 
 @media screen and (max-width: 650px) {
-     .layout__main .page2 .section21__main .content{
+     .section21__main .content{
           max-height:  5000px;
            transition:  max-height   0.3s ease-out ;
      }
 
-     .layout__main .page2 .section21__main .content.hide{
+     .section21__main .content.hide{
           max-height:  43px;
            transition:  max-height   0.3s ease-out ;
      }
@@ -9530,7 +9530,7 @@ color: #fff;
 
 
 
-.layout__main .page2 .section21__main .content__title{
+.section21__main .content__title{
      width:    250px;
      border-left: 1px solid #E5E7E8;
     height: max-content;
@@ -9539,7 +9539,7 @@ color: #fff;
 
 }
 
-.layout__main .page2 .section21__main .content__title img{
+.section21__main .content__title img{
     position: absolute;
     right: 12px;
     top: 15px; 
@@ -9548,7 +9548,7 @@ color: #fff;
 }
 
 @media screen and (max-width: 650px) {
-     .layout__main .page2 .section21__main .content__title img{
+     .section21__main .content__title img{
 
          display:   block;
           -webkit-transform: rotate(180deg);
@@ -9557,7 +9557,7 @@ color: #fff;
 
      } 
 
-     .layout__main .page2 .section21__main .hide .content__title img{
+     .section21__main .hide .content__title img{
 
          -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
@@ -9599,19 +9599,19 @@ color: #fff;
 
 
 @media screen and (max-width: 1025px) {
-     .layout__main .page2 .section21__main .content__title{
+     .section21__main .content__title{
           width:    200px;
       }    
 }
 
 @media screen and (max-width: 769px) {
-      .layout__main .page2 .section21__main .content__title{
+      .section21__main .content__title{
           width:    210px;
      }
 }
 
 @media screen and (max-width: 650px) {
-     .layout__main .page2 .section21__main .content__title{
+     .section21__main .content__title{
           width:    100%;
          background: #FAFAFA;
          background: #ffffff ;
@@ -9626,7 +9626,7 @@ color: #fff;
 
 
 
-.layout__main .page2 .section21__main .content__title p{
+.section21__main .content__title p{
          font-family: Roboto;
     font-weight: bold;
     font-size: 12px;
@@ -9640,7 +9640,7 @@ color: #fff;
 
 }
 @media screen and (max-width: 650px) {
-     .layout__main .page2 .section21__main .content__title p{
+     .section21__main .content__title p{
           font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -9657,7 +9657,7 @@ color: #fff;
 
 
 
-.layout__main .page2 .section21__main .content__title:before{
+.section21__main .content__title:before{
      content:'';
 
       position: absolute !important;
@@ -9674,31 +9674,31 @@ color: #fff;
 }
 
 @media screen and (max-width: 650px) {
-     .layout__main .page2 .section21__main .content__title:before{
+     .section21__main .content__title:before{
           display:  none;
      }
 }
 
 
-.layout__main .page2 .section21__main .content__info{
+.section21__main .content__info{
      width:    750px;
 
 }
 
 @media screen and (max-width: 1025px) {
-      .layout__main .page2 .section21__main .content__info{
+      .section21__main .content__info{
           width:    650px;
       }    
 }
 
 @media screen and (max-width: 769px) {
-      .layout__main .page2 .section21__main .content__info{
+      .section21__main .content__info{
           width:    470px;
      }
 }
 
 @media screen and (max-width: 650px) {
-      .layout__main .page2 .section21__main .content__info{
+      .section21__main .content__info{
           width:    100%;
           padding:  0 20px;
      }
@@ -9706,19 +9706,19 @@ color: #fff;
 
 
 
-.layout__main .page2 .section21__main .content__info ul{
+.section21__main .content__info ul{
      width:   100%
 
 }
 
-.layout__main .page2 .section21__main .content__info ul li{
+.section21__main .content__info ul li{
      font-size:     14px;
      color:    #283342;
      margin-bottom:      32px;
 
 }
 
-.layout__main .page2 .section21__main .content__info ul li a {
+.section21__main .content__info ul li a {
    
      color:    #0fbddf;
  
@@ -9726,7 +9726,7 @@ color: #fff;
 }
 
 
-.layout__main .page2 .section21__main .content__info ul li:last-child{
+.section21__main .content__info ul li:last-child{
 
      margin-bottom:      0px;
 

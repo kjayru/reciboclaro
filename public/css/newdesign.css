@@ -737,6 +737,7 @@ ul.page-company li{
 
 .espacioHeader {
     height: 55px;
+		display: none;
 }
 
 .limitt {

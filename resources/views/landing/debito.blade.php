@@ -2,7 +2,7 @@
 
 @section('content')
 
-  <modal name="m0" :width="1000" :height="'auto'" :adaptive="true">
+  <!--<modal name="m0" :width="1000" :height="'auto'" :adaptive="true">
     <div class="modal">
       <div class="modal__header">
         <hgroup>
@@ -116,7 +116,7 @@
         </div>
       </div>
     </div>
-  </modal>
+  </modal>-->
   
   <div class="espacioHeader"></div>
 

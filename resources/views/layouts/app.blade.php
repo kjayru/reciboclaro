@@ -280,7 +280,7 @@
     
     <!--<script src="/js/pgwmodal.js"></script>-->
     <script type="text/javascript" src="/js/vue-slick.js" charset="utf-8"></script>
-    <script type="text/javascript" src="/js/vue-modal.js"></script>
+    <!--<script type="text/javascript" src="/js/vue-modal.js"></script>-->
 
 
 <!--     header foooter js-->
