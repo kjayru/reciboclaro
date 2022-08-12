@@ -37,6 +37,8 @@
        
     </ul>
 
+    <div class="section33"></div>
+
     <div class="layout" id="app" v-cloak>
       <div class="layout__main">
         <div class="page2">
@@ -1643,6 +1645,40 @@
 
 </section>
 
+<section class="section21"  >
+      <div class="section21__align hide" id="contentalign"> 
+
+
+        <div class="section21__header">
+          <div class="content">
+              <div class="content__title">
+                <span> CONSIDERACIONES </span>
+                <h3> Nos gusta hablar Claro </h3>
+              </div>
+              <div class="content__close evento__toggle" id="contentclose">
+                <span id="changetext"> Saber más </span>
+                <img id="changeimage" src="/assets/292fdf05-2aa6-4730-ae50-7e119c7e705a-MasCeleste.svg"/>
+              </div>
+          </div>
+        </div>
+
+
+        <div class="section21__main">
+          <div class="content" id="contentmain">
+            <div class="content__title">
+              <p>Sobre Bono para Canales digitales</p> <img src="/assets/8633d187-a147-4b79-bf9c-ff612184b1b7-ArrowDown.svg"/>
+            </div>
+            <div class="content__info">
+              <ul>
+                <li>Conoce las bases del bono por pago de tu línea móvil mediante Canales Digitales <a href="#">aquí</a></li>
+              </ul>
+            </div>
+          </div>
+            
+        </div>
+      </div>
+    </section>
+
 <div class="puntoFooter"></div>
 
 
@@ -1651,7 +1687,62 @@
 <script type="text/javascript" src="/js/library/slick.js" charset="utf-8"></script>
 <script type="text/javascript" src="/js/library/vue-slide-up-down.umd.js" charset="utf-8"></script>
 <script type="text/javascript" src="/js/main_new.js"></script>
-<script type="text/javascript">main.init('page1');</script>
+<script type="text/javascript">
+  main.init('page1');
+
+  let contentclose = document.getElementById('contentclose')
+
+  if (contentclose) {
+
+
+    
+    let changetext = document.getElementById('changetext')
+    let changeimage = document.getElementById('changeimage')
+    let contentalign = document.getElementById('contentalign')
+
+    contentclose.addEventListener('click' , () => {
+        if ( changetext.textContent.trim() ==  'Cerrar' ) {
+            changetext.textContent="Saber más"
+            changeimage.setAttribute('src' , '/assets/292fdf05-2aa6-4730-ae50-7e119c7e705a-MasCeleste.svg')
+            contentalign.classList.add('hide') 
+        }
+        else {
+          changetext.textContent="Cerrar"
+            changeimage.setAttribute('src' , '/assets/148c0a9e-f568-45e1-8fa2-b537400979f6-CloseCeleste.svg')
+            contentalign.classList.remove('hide')
+        }
+
+    })
+
+    // if (resolucion < 650) {
+
+    //   changetext.textContent= "Saber más"
+    //   changeimage.setAttribute('src' , '/assets/292fdf05-2aa6-4730-ae50-7e119c7e705a-MasCeleste.svg')
+    //   contentalign.classList.add('hide')
+
+    // }
+
+
+
+  }
+
+  let contentmain = document.getElementById('contentmain')
+
+  if (contentmain) {
+    $(document).on('click', '#contentmain', function() {
+      if($('#contentmain').hasClass('hide')){
+        $('#contentmain').removeClass('hide')
+      } else {
+        $('#contentmain').addClass('hide')
+      }
+    })
+    
+    if (resolucion < 650) {
+      contentmain.classList.add('hide')
+    }
+  }
+
+</script>
 
 
 @endsection
