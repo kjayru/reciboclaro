@@ -1666,7 +1666,7 @@
         <div class="section21__main">
           <div class="content" id="contentmain">
             <div class="content__title">
-              <p>Sobre Bono para Canales digitales</p> <img src="/assets/8633d187-a147-4b79-bf9c-ff612184b1b7-ArrowDown.svg"/>
+              <p>Sobre Bono para Canales Digitales</p> <img src="/assets/8633d187-a147-4b79-bf9c-ff612184b1b7-ArrowDown.svg"/>
             </div>
             <div class="content__info">
               <ul>
