@@ -10,7 +10,8 @@
         <li><a href="/">Inicio</a></li>/
         <li><a href="/lugares-de-pago">Lugares y medios de pago</a></li>/
         
-        <li>{{ $post->title }} </li>
+        <!--<li>{{ $post->title }} </li>-->
+        <li>Cajeros Claro </li>
     </ul>
     <ul class="pagina__breadcrumb  pagina__breadcrumb--mobile limit">
         <li><a href="/lugares-de-pago">Lugares y medios de pago</a></li>/

@@ -124,12 +124,12 @@
     <ul class="pagina__breadcrumb limit">
         <li><a href="/">Inicio</a></li>/
         <li><a href="/lugares-de-pago">Lugares y medios de pago</a></li>/
-        <li>Débito Automatico</li>
+        <li>Débito Automático</li>
     </ul>
     <ul class="pagina__breadcrumb pagina__breadcrumb--mobile limit">
         <li><a href="/">Inicio</a></li>/
         <li><a href="/lugares-de-pago">Lugares y medios de pago</a></li>/
-        <li>Débito Automatico</li>
+        <li>Débito Automático</li>
     </ul>
   </section>
 
