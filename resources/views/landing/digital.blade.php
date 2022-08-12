@@ -1670,7 +1670,7 @@
             </div>
             <div class="content__info">
               <ul>
-                <li>Conoce las bases del bono por pago de tu línea móvil mediante Canales Digitales <a href="#">aquí</a></li>
+                <li>Conoce las bases del bono por pago de tu línea móvil mediante Canales Digitales <a href="https://static.claro.com.pe/img/otros/bases_campa%C3%B1a_bono_por_canales_digitales_agosto22.pdf" target="_blank">aquí</a></li>
               </ul>
             </div>
           </div>
