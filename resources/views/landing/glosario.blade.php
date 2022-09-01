@@ -23,7 +23,7 @@
                     <ul class="glosario__lista">
                         <div class="swiper-container slideGlosario">
                             <ul class="swiper-wrapper">
-                                   @foreach($terms as $k=> $term)
+                                   @foreach($terms->sortBy('name') as $k=> $term)
                                     <li class="swiper-slide glosario__item">
                                         <a href="/glosario-de-facturacion/{{$term->name}}" class="click @if($term->name==strtoupper($pag)) act @endif">{{$term->name}}</a>
                                     </li>
@@ -37,7 +37,7 @@
                 <div class="limit listadoStandardContenedor">
                     <ul id="c" class="listadoStandard act">
                       
-                     @foreach($glosario->glosaries as $gloso) 
+                     @foreach($glosario->glosaries->sortBy('order') as $gloso) 
                         <li>
                             <article>
                                 <h3>{{ $gloso->name }}</h3>
