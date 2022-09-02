@@ -18,10 +18,11 @@ class GlosarioController extends Controller
         $configure = Configuration::first();
         $terms = Term::with('glosaries')->get();
         //dd($terms);
-        $glosario = Term::with('glosaries')->first();
+        $glosario = Term::with('glosaries')->orderBy('name')->first();
         $ppurl = explode("/",$_SERVER['REQUEST_URI']);
        
          $pag = @$ppurl[2];
+
          if(!$pag){
              $pag = $glosario->name;
          }
