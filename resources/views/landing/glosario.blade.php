@@ -25,7 +25,7 @@
                             <ul class="swiper-wrapper">
                                    @foreach($terms->sortBy('name') as $k=> $term)
                                     <li class="swiper-slide glosario__item">
-                                        <a href="/glosario-de-facturacion/{{$term->name}}" class="click @if($term->name==strtoupper($pag)) act @endif">{{$term->name}}</a>
+                                        <a href="/glosario-de-facturacion/{{$term->name}}" data-num="{{$loop->index}}" class="click @if($term->name==strtoupper($pag)) act @endif">{{$term->name}}</a>
                                     </li>
                                     @endforeach
                             </ul>

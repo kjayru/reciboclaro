@@ -212,6 +212,15 @@ $(document).on("ready", function() {
     navigation: {
       nextEl: ".glosario__right",
       prevEl: ".glosario__left"
+    },
+    on: {
+      init: function () {
+
+        var index = $(".act").data('num');        
+        this.slideTo(index, 0);
+
+        //console.log('swiper initialized 1', index);
+      }
     }
     /*,
               breakpoints: {
@@ -221,6 +230,10 @@ $(document).on("ready", function() {
                 420: { slidesPerView: 6 }
               }*/
   });
+
+  /*swiper3.on('slideChange', function () {
+    console.log('slide changed');
+  });*/
 
 /*
   var menuBoton = true;
@@ -360,7 +373,7 @@ $(document).on("ready", function() {
     }
   });
 
-  $(".glosario__item a").on("click", function(event) {
+  /*$(".glosario__item a").on("click", function(event) {
     var t = $($(this).attr("href")),
       listadoStandardActivo = $(".listadoStandard.act");
     $(".glosario__item a").removeClass("act");
@@ -370,7 +383,7 @@ $(document).on("ready", function() {
       t.fadeIn(450);
       t.addClass("act");
     });
-  });
+  });*/
 
   setInterval(function() {
     footer();
