@@ -432,7 +432,7 @@ cargo con éxito. El importe máximo a devolver S/ 30*.</small>
               </div>
 
               <!--logo Banco Ripley-->
-              <div class="content__group">
+              <!--<div class="content__group">
                 <div class="content__item">
                   <figure><img src="/assets/banco-ripley-logo.png"/></figure>
                   <hgroup>
@@ -440,7 +440,7 @@ cargo con éxito. El importe máximo a devolver S/ 30*.</small>
                   </hgroup>
                   <div class="link"><a href="https://www.bancoripley.com.pe/" target="_blank">Afíliate aquí</a></div>
                 </div>    
-              </div>
+              </div>-->
 
               <!--logo Visa-->
               <div class="content__group">
