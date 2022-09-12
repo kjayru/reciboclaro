@@ -398,8 +398,10 @@ $(document).on("ready", function() {
   $("#datepicker").datepicker({
     monthNames: meses,
     monthNamesShort: mesesCortos,
-    dayNamesMin: ["Dom", "Lun", "Mar", "Mie", "Jue", "Vie", "SÃ¡b"],
+    dayNamesMin: ["Dom", "Lun", "Mar", "Mie", "Jue", "Vie", "Sab"],
     dateFormat: "dd/mm/yy",
+    //minDate: "-18D",
+    //maxDate: "+2M, -10D"
     defaultDate: new Date(
       mesActual.getFullYear(),
       mesActual.getMonth() + 1 - 1,
@@ -549,15 +551,42 @@ function simulacion(dia, mes, year) {
   ultimoDia(dia, mes, year);
 }
 
+function diasDelMesYAnoActual() {
+	var fecha = new Date();
+	return new Date(fecha.getFullYear(), fecha.getMonth() + 1, 0).getDate();
+}
+
 function ultimoDia(dia, mes, year) {
-  var opc1 = [1],
-    opc2 = [2],
-    opc3 = [4, 5, 6, 8, 9, 11, 12, 14, 16, 18, 19, 20, 22, 24, 25, 26, 28];
+  var opc1 = [1,3,4,5,6,8,9,10,11,12];
+  var opc2 = [14,16,18,19];
+  var opc3 = [20,22,24];
+  var opc4 = [25,26,28];
+    //opc2 = [3],
+    //opc3 = [4, 5, 6, 8, 9, 10, 11, 12, 14, 16, 18, 19, 20, 22, 24, 25, 26, 28];
+
+    /*console.log("opc1",opc1.indexOf(dia));
+    console.log("opc2",opc2.indexOf(dia));
+    console.log("opc3",opc3.indexOf(dia));*/
+
+    console.log("dia",dia);
+    console.log("mes",mes);
+    console.log("year",year);
 
   switch (true) {
     case opc1.indexOf(dia) != -1:
-      var ultimoDia = new Date(2018, mes + 1, 0).getDate(),
-        texto = ultimoDia + "-" + mesesCortos[mes] + "-" + year;
+
+      //var future = new Date();
+      //var texto = future.setDate(future.getDate() + 18);
+
+      //var d = new Date().getDate() + 18;
+      //console.log("dias rango",d);
+
+      /*var ultimoDia = new Date(2018, mes + 1, 0).getDate(),
+        texto = ultimoDia + "-" + mesesCortos[mes] + "-" + year;*/
+      
+        var texto = (dia + 18) + "-" + mesesCortos[mes] + "-" + year;
+
+        console.log("ultimoDia",texto);
       $("#final").html(texto);
       msg1Titulo = texto;
       primerDia(dia, mes, year);
@@ -571,7 +600,11 @@ function ultimoDia(dia, mes, year) {
       year = mes > 10 ? parseInt(year) + 1 : year;
       mes = mes > 10 ? 0 : mes;
 
-      var texto = dia + "-" + mesesCortos[mes + 1] + "-" + year;
+      var diarestante = parseInt(dia) - parseInt(diasDelMesYAnoActual());
+
+      var texto = (diarestante + 17) + "-" + mesesCortos[mes + 1] + "-" + year;
+
+      //var texto = dia + "-" + mesesCortos[mes + 1] + "-" + year;
       $("#final").html(texto);
       msg1Titulo = texto;
       dia = dia + 1;
@@ -585,7 +618,12 @@ function ultimoDia(dia, mes, year) {
     case opc3.indexOf(dia) != -1:
       year = mes > 10 ? parseInt(year) + 1 : year;
       mes = mes > 10 ? 0 : mes;
-      var texto = dia - 1 + "-" + mesesCortos[mes + 1] + "-" + year;
+
+      var diarestante = parseInt(dia) - parseInt(diasDelMesYAnoActual());
+
+      //console.log("dias diarestantes", diarestante + 18);
+
+      var texto = (diarestante + 18) + "-" + mesesCortos[mes + 1] + "-" + year;
       $("#final").html(texto);
       msg1Titulo = texto;
       primerDia(dia, mes, year);
@@ -595,6 +633,24 @@ function ultimoDia(dia, mes, year) {
       $(".ciclodefacturacion__boton").fadeIn(350);
 
       break;
+    case opc4.indexOf(dia) != -1:
+        year = mes > 10 ? parseInt(year) + 1 : year;
+        mes = mes > 10 ? 0 : mes;
+  
+        var diarestante = parseInt(dia) - parseInt(diasDelMesYAnoActual());
+  
+        //console.log("dias diarestantes", diarestante + 18);
+  
+        var texto = (diarestante + 19) + "-" + mesesCortos[mes + 1] + "-" + year;
+        $("#final").html(texto);
+        msg1Titulo = texto;
+        primerDia(dia, mes, year);
+  
+        msgs(dia);
+  
+        $(".ciclodefacturacion__boton").fadeIn(350);
+  
+        break;
     default:
       primerDia(dia, mes, year);
       $("#final").html("- - - -");

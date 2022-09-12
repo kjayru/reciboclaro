@@ -22,7 +22,7 @@
         
     <article class="ciclodefacturacion">
         <div class="ciclodefacturacion__referencia">
-            <strong><a href="#" class="verFactura">Haz clic aquí para obtener las fechas de tu ciclo</a></strong>
+            <strong><a href="#" class="verFactura">Ubica en tu recibo donde se encuentra tu ultimo día de pago aquí</a></strong>
         </div>
         
         <div id="datepicker"></div>
@@ -74,7 +74,7 @@
     <div class="box__table">
         <div class="box__table__cell">
             <div class="box__contenido">
-                <img src="img/factura.jpg" alt="">
+                <img src="img/img_fecha_factura.png" alt="">
                 <div class="box__cerrar">x</div>
             </div>
         </div>
