@@ -607,7 +607,7 @@ function ultimoDia(dia, mes, year) {
       //var texto = dia + "-" + mesesCortos[mes + 1] + "-" + year;
       $("#final").html(texto);
       msg1Titulo = texto;
-      dia = dia + 1;
+      //dia = dia + 1;
       primerDia(dia, mes, year);
 
       msgs(dia);
