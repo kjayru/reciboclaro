@@ -21,7 +21,11 @@
         <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
 
         <!-- este es el estilo del menu y footer -->
-        <link rel="stylesheet" href="/css/header_footer.css">
+        <!--<link rel="stylesheet" href="/css/header_footer.css">-->
+
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/header.css">
+        <link rel="stylesheet" href="/css/footer.css">
         
         <script async src="https://www.googletagmanager.com/gtag/js?id={{ $configure->analitycs }}"></script>
         <script>
