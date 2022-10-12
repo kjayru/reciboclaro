@@ -1666,11 +1666,14 @@
         <div class="section21__main">
           <div class="content" id="contentmain">
             <div class="content__title">
-              <p>Sobre Bono para Canales Digitales</p> <img src="/assets/8633d187-a147-4b79-bf9c-ff612184b1b7-ArrowDown.svg"/>
+              <p>Sobre Sorteo por pago en canales digitales</p> <img src="/assets/8633d187-a147-4b79-bf9c-ff612184b1b7-ArrowDown.svg"/>
             </div>
             <div class="content__info">
               <ul>
-                <li>Conoce las bases del bono por pago de tu línea móvil mediante Canales Digitales <a href="https://cl4.ro/bbpagocd" target="_blank">aquí</a></li>
+                <li>Promoción válida del 10 al 31 de octubre de 2022. 
+Aplica para personas mayores de 18 años a nivel nacional, titulares de servicios móviles Postpago de Claro que se encuentren al día en el pago de sus servicios.
+ Premios: 1 TV Samsung Smart 55" UHD 4K + 01 Mochila OPPO + 01 Portable Bluetooth Mini Speaker Modelo C8 color blanco, para un solo ganador. 
+Conoce las bases de la promoción <a href="https://cl4.ro/bbpagocd" target="_blank">aquí</a></li>
               </ul>
             </div>
           </div>

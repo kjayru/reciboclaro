@@ -1,3 +1,50 @@
+/******************************************/
+
+.section33 {
+  width: 100%;
+  padding-bottom: calc(100% * (480 / 1920));
+  background-image: url('../assets/banner05/desktop.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 1365px) {
+  .section33 {
+    padding-bottom: calc(100% * (365 / 1366));
+    background-image: url('../assets/banner05/laptop.jpg');
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .section33 {
+    padding-bottom: calc(100% * (342 / 1024));
+    background-image: url('../assets/banner05/tablet_h.jpg');
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .section33 {
+    padding-bottom: calc(100% * (384 / 768));
+    background-image: url('../assets/banner05/tablet_v.jpg');
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .section33 {
+    padding-bottom: calc(100% * (190 / 570));
+    background-image: url('../assets/banner05/movil_h.jpg');
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section33 {
+    padding-bottom: calc(100% * (430 / 400));
+    background-image: url('../assets/banner05/movil_v.jpg');
+  }
+}
+
 .tips-successful-payment{
 	width: 100%;
   max-width: 940px;

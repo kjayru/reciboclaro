@@ -37,6 +37,7 @@
             </li>
         </ul>
     </div> -->
+    <div class="section33"></div>
     <br>
     <div class="list__title">
         <h3>Lugares de pago</h3>
