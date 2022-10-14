@@ -5,8 +5,6 @@
 <div class="page1">
           
     <div class="page1__main">
-      
-
       <div class="section_banner">
         <div class="owl-carousel owl-theme">
           <div id="banner1">
@@ -21,7 +19,7 @@
           </div>
           <div id="banner3">
             <div class="box">
-              <a class="btn" href="/debito-automatico">Ingresa aquí</a>
+              <a class="btn" href="/lugares-de-pago/debito-automatico">Ingresa aquí</a>
             </div>
           </div>
         </div>

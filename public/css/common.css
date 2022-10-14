@@ -10281,17 +10281,17 @@ color: #fff;
 
 .section_banner .owl-carousel #banner1 {
      height: 480px;
-     background: url('../assets/banner01/Banner-Todo-sobre-tu-recibo-1920x480.jpg') no-repeat top center;
+     background: url('../assets/banner01/Banner-Conoce-tu-recibo-Desktop-1920x480-general.jpg') no-repeat top center;
 }
 
 .section_banner .owl-carousel #banner2 {
      height: 480px;
-     background: url('../assets/banner02/Banner_Landing-Recibo-Email-1920x480.jpg') no-repeat top center;
+     background: url('../assets/banner02/Banner-Conoce-tu-recibo-Desktop-1920x480-recibo_por_email.jpg') no-repeat top center;
 }
 
 .section_banner .owl-carousel #banner3 {
      height: 480px;
-     background: url('../assets/banner03/Banner-Debito-automatico-1920x480.jpg') no-repeat top center;
+     background: url('../assets/banner03/Banner-Landing-debito-Desktop-1920x480.jpg') no-repeat top center;
 }
 
 .section_banner .owl-carousel .box {
@@ -10314,8 +10314,8 @@ color: #fff;
      font-size: 1rem;
      text-decoration: none;
      color: #fff;
-     background: #2593ac;
-     border-radius: 5px;
+     background: #EE122C;
+     border-radius: 32px;
      padding: 10px 40px;
 }
 
@@ -10329,17 +10329,17 @@ color: #fff;
      }
      .section_banner .owl-carousel #banner1 {
           height: 365px;
-          background: url('../assets/banner01/Banner-Todo-sobre-tu-recibo-1920x480.jpg') no-repeat top center;
+          background: url('../assets/banner01/Banner-Conoce-tu-recibo-Desktop-1920x480-general.jpg') no-repeat top center;
           background-size: cover;
      }
      .section_banner .owl-carousel #banner2 {
           height: 365px;
-          background: url('../assets/banner02/Banner_Landing-Recibo-Email-1920x480.jpg') no-repeat top center;
+          background: url('../assets/banner02/Banner-Conoce-tu-recibo-Desktop-1920x480-recibo_por_email.jpg') no-repeat top center;
           background-size: cover;
      }
      .section_banner .owl-carousel #banner3 {
           height: 365px;
-          background: url('../assets/banner03/Banner-Debito-automatico-1920x480.jpg') no-repeat top center;
+          background: url('../assets/banner03/Banner-Landing-debito-Desktop-1920x480.jpg') no-repeat top center;
           background-size: cover;
      }
 }
@@ -10350,17 +10350,17 @@ color: #fff;
      }
      .section_banner .owl-carousel #banner1 {
           height: 342px;
-          background: url('../assets/banner01/Banner-Todo-sobre-tu-recibo-1024x342.jpg') no-repeat top center;
+          background: url('../assets/banner01/Banner-Conoce-tu-recibo-Tablet-H-1024x342-general.jpg') no-repeat top center;
           background-size: cover;
      }
      .section_banner .owl-carousel #banner2 {
           height: 342px;
-          background: url('../assets/banner02/Banner_Landing-Recibo-Email-1024x342.jpg') no-repeat top center;
+          background: url('../assets/banner02/Banner-Conoce-tu-recibo-Tablet-H-1024x342-recibo_por_email.jpg') no-repeat top center;
           background-size: cover;
      }
      .section_banner .owl-carousel #banner3 {
           height: 342px;
-          background: url('../assets/banner03/Banner-Debito-automatico-1024x342.jpg') no-repeat top center;
+          background: url('../assets/banner03/Banner_Landing_debito_Tablet_H_1024x342.jpg') no-repeat top center;
           background-size: cover;
      }
 }
@@ -10371,17 +10371,17 @@ color: #fff;
      }
      .section_banner .owl-carousel #banner1 {
           height: 384px;
-          background: url('../assets/banner01/Banner-Todo-sobre-tu-recibo-768x384.jpg') no-repeat top center;
+          background: url('../assets/banner01/Banner-Conoce-tu-recibo-Tablet-V-768x384-general.jpg') no-repeat top center;
           background-size: cover;
      }
      .section_banner .owl-carousel #banner2 {
           height: 384px;
-          background: url('../assets/banner02/Banner_Landing-Recibo-Email-768x384.jpg') no-repeat top center;
+          background: url('../assets/banner02/Banner-Conoce-tu-recibo-Tablet-V-768x384-recibo_por_email.jpg') no-repeat top center;
           background-size: cover;
      }
      .section_banner .owl-carousel #banner3 {
           height: 384px;
-          background: url('../assets/banner03/Banner-Debito-automatico-768x384.jpg') no-repeat top center;
+          background: url('../assets/banner03/Banner_Landing_debito_Tablet_V_768x384.jpg') no-repeat top center;
           background-size: cover;
      }
 }
@@ -10395,17 +10395,17 @@ color: #fff;
      }
      .section_banner .owl-carousel #banner1 {
           height: 190px;
-          background: url('../assets/banner01/Banner-Todo-sobre-tu-recibo-570x190.jpg') no-repeat top center;
+          background: url('../assets/banner01/Banner-Conoce-tu-recibo-Movil-H-570x190-general.jpg') no-repeat top center;
           background-size: cover;
      }
      .section_banner .owl-carousel #banner2 {
           height: 190px;
-          background: url('../assets/banner02/Banner_Landing-Recibo-Email-570x190.jpg') no-repeat top center;
+          background: url('../assets/banner02/Banner-Conoce-tu-recibo-Movil-H-570x190-recibo_por_email.jpg') no-repeat top center;
           background-size: cover;
      }
      .section_banner .owl-carousel #banner3 {
           height: 190px;
-          background: url('../assets/banner03/Banner-Debito-automatico-570x190.jpg') no-repeat top center;
+          background: url('../assets/banner03/Banner_Landing_debito_Movil_H_570x190.jpg') no-repeat top center;
           background-size: cover;
      }
 }
@@ -10419,17 +10419,17 @@ color: #fff;
      }
      .section_banner .owl-carousel #banner1 {
           height: 400px;
-          background: url('../assets/banner01/Banner-Todo-sobre-tu-recibo-430x400.jpg') no-repeat top center;
+          background: url('../assets/banner01/Banner-Conoce-tu-recibo-Movil-V-430x400-general.jpg') no-repeat top center;
           background-size: cover;
      }
      .section_banner .owl-carousel #banner2 {
           height: 400px;
-          background: url('../assets/banner02/Banner_Landing-Recibo-Email-430x400.jpg') no-repeat top center;
+          background: url('../assets/banner02/Banner-Conoce-tu-recibo-Movil-V-430x400-recibo_por_email.jpg') no-repeat top center;
           background-size: cover;
      }
      .section_banner .owl-carousel #banner3 {
           height: 400px;
-          background: url('../assets/banner03/Banner-Debito-automatico-430x400.jpg') no-repeat top center;
+          background: url('../assets/banner03/Banner_Landing_debito_Movil_V_430x400.jpg') no-repeat top center;
           background-size: cover;
      }
 }
