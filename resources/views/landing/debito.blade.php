@@ -647,7 +647,7 @@ cargo con éxito. El importe máximo a devolver S/ 30*.</small>
                 <li> Si tienes una cuenta de ahorro en el BCP o Interbank, puedes escanear los documentos solicitados y enviarlos al buzón recaudaciondebitos@claro.com.pe.  </li>
                 <li> Para el caso de cuentas del BBVA y Scotiabank, se requiere acudir al Centro de Atención para presentar la documentación necesaria.  </li>
                 <li>  Para desafiliarte del débito automático debes hacerlo de manera telefónica o presencial. </li>
-                <li> Términos y condiciones sobre promoción 30% de dto. en tu primer recibo <a href="https://cl4.ro/dcfdebautomatico" target="_blank">aquí</a></li>
+                <li> Términos y condiciones sobre promoción 30% de dto. en tu primer recibo <a href="https://static.claro.com.pe/img/otros/bases-promocion-descuento-cargo-fijo-octubre_2022.pdf" target="_blank">aquí</a></li>
                 {{-- <li> 
                  <!-- Términos y condiciones de campaña: "Gift card Visa" <a href="/assets/files/TyCDebitoautomaticogiftcardsVISA.pdf"/ target="_blank">aquí</a> -->
                 
@@ -655,12 +655,12 @@ cargo con éxito. El importe máximo a devolver S/ 30*.</small>
                   
                    <a href="https://static.claro.com.pe/img/otros/TyCDebitoautomaticogiftcardsVISA.pdf" target="_blank">aquí</a> 
                 </li> --}}
-                <li>
+                {{--<li>
                   Términos y condiciones sobre débito automático con tarjeta Ripley. Más información <a href="https://static.claro.com.pe/img/otros/bases_promo-Ripley-cashback_feb22.pdf" target="_blank">aquí</a>
                 </li>
                 <li>
                   Términos y condiciones sobre promoción sorteo millas Latam. Más información <a href="https://static.claro.com.pe/img/otros/Bases_promo_millas_latam_feb22.pdf" target="_blank">aquí</a>
-                </li>
+                </li>--}}
 
               </ul>
             </div>
