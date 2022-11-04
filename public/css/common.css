@@ -9805,6 +9805,7 @@ font-weight: 400;
         flex-direction: column-reverse;
         width: 286px;
         align-items: flex-start;
+        padding: 70px 0;
       }
       .section27__align {
         margin-top: 24px;
