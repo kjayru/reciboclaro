@@ -9732,7 +9732,103 @@ color: #fff;
 
 }
 
+@font-face {
+font-family: "AMX-Bold";
+src: url("/fonts/AMX-Bold.woff") format("woff"),
+     url("/fonts/AMX-Bold.woff2") format("woff2");
+font-weight: 700;
+}
+@font-face {
+font-family: "AMX-Regular";
+src: url("/fonts/AMX-Regular.woff") format("woff"),
+     url("/fonts/AMX-Regular.woff2") format("woff2");
+font-weight: 400;
+}
 
+.section27 {
+      width: 100%;
+      background-color: #fafafa;
+      margin: 0 auto;
+    }
+    .section27__main {
+      margin: 0 auto;
+      max-width: 1100px;
+      padding: 70px 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .section27__align {
+      max-width: 260px;
+      margin-right: auto;
+    }
+    .section27__align > span {
+      font-family: "AMX-Regular";
+      font-size: 11px;
+      line-height: 12px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #283342;
+    }
+    .section27__align > .phrase1 {
+      font-family: "AMX-Bold";
+      font-size: 24px;
+      line-height: 40px;
+      letter-spacing: -0.02em;
+      color: #283342;
+      margin: 8px 0;
+    }
+    .section27__align > .phrase2 {
+      font-family: "AMX-Regular";
+      font-size: 20px;
+      line-height: 24px;
+      color: #283342;
+    }
+    .section27__banner {
+      background-image: url("/assets/BannerSeccionImagen-480x330-Desktop1.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 480px;
+      height: 330px;
+    }
+    @media screen and (max-width: 992px) {
+      .section27__main {
+        width: 96%;
+        margin: 0 auto;
+      }
+    }
+
+    @media screen and (max-width: 658px) {
+      .section27__main {
+        flex-direction: column-reverse;
+        width: 286px;
+        align-items: flex-start;
+      }
+      .section27__align {
+        margin-top: 24px;
+      }
+      .section27__align > span {
+        font-size: 11px;
+        line-height: 12px;
+        letter-spacing: 0.04em;
+      }
+      .section27__align > .phrase1 {
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: -0.02em;
+      }
+      .section27__align > .phrase2 {
+        font-size: 16px;
+        line-height: 24px;
+      }
+      .section27__banner {
+        background-image: url("/assets/BannerSeccionImagen-286x180-Mobile1.jpg");
+        width: 286px;
+        height: 180px;
+      }
+    }
 
 
 

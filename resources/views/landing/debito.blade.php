@@ -331,7 +331,16 @@ cargo con éxito. El importe máximo a devolver S/ 30*.</small>
         <small>Monto máximo de devolución: S/ 35</small>
       </div>
     </div>-->
-
+    <section class="section27">
+      <div class="section27__main">
+        <div class="section27__align">
+          <span>DÉBITO AUTOMÁTICO</span>
+          <p class="phrase1">Hasta 30% de descuento en tu primer recibo</p>
+          <p class="phrase2">*Descuento máximo de S/30</p>
+        </div>
+        <div class="section27__banner"></div>
+      </div>
+    </section>
     <section class="section20">
       <div class="section20__align"> 
         <div class="section20__header">
