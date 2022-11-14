@@ -331,11 +331,29 @@ cargo con éxito. El importe máximo a devolver S/ 30*.</small>
         <small>Monto máximo de devolución: S/ 35</small>
       </div>
     </div>-->
-    <section class="section27">
+    <!--<section class="section27">
       <div class="section27__main">
         <div class="section27__align">
           <span>DÉBITO AUTOMÁTICO</span>
           <p class="phrase1">Hasta 30% de descuento en tu primer recibo</p>
+          <p class="phrase2">*Descuento máximo de S/30</p>
+        </div>
+        <div class="section27__banner"></div>
+      </div>
+    </section>-->
+    <section class="section27">
+      <h3 class="section27__title">
+        Te devolvemos Hasta 30%* de tu cargo debitado
+      </h3>
+      <div class="section27__main">
+        <div class="section27__align">
+          <span>Descuento en cargo fijo</span>
+          <p class="phrase2">Del 15 de octubre al 15 de noviembre</p>
+          <p class="phrase2">
+            Afíliate al débito en las entidades asociadas y luego del primer
+            cobro debitado recibe hasta el 30% *de descuento en tu cargo
+            fijo
+          </p>
           <p class="phrase2">*Descuento máximo de S/30</p>
         </div>
         <div class="section27__banner"></div>
@@ -656,7 +674,7 @@ cargo con éxito. El importe máximo a devolver S/ 30*.</small>
                 <li> Si tienes una cuenta de ahorro en el BCP o Interbank, puedes escanear los documentos solicitados y enviarlos al buzón recaudaciondebitos@claro.com.pe.  </li>
                 <li> Para el caso de cuentas del BBVA y Scotiabank, se requiere acudir al Centro de Atención para presentar la documentación necesaria.  </li>
                 <li>  Para desafiliarte del débito automático debes hacerlo de manera telefónica o presencial. </li>
-                <li> Términos y condiciones sobre promoción 30% de dto. en tu primer recibo <a href="https://static.claro.com.pe/img/otros/bases-promocion-descuento-cargo-fijo-octubre_2022.pdf" target="_blank">aquí</a></li>
+                <li> Términos y condiciones sobre promoción 30% de dto. en tu primer recibo <a href="https://static.claro.com.pe/img/otros/bases-promocion-descuento-cargo-fijo-noviembre_2022.pdf" target="_blank">aquí</a></li>
                 {{-- <li> 
                  <!-- Términos y condiciones de campaña: "Gift card Visa" <a href="/assets/files/TyCDebitoautomaticogiftcardsVISA.pdf"/ target="_blank">aquí</a> -->
                 
