@@ -1670,9 +1670,9 @@
             </div>
             <div class="content__info">
               <ul>
-                <li>Promoción válida del 10 al 31 de octubre de 2022. 
+                <li>Promoción válida del 21 de noviembre al 21 de diciembre de 2022. 
 Aplica para personas mayores de 18 años a nivel nacional, titulares de servicios móviles Postpago de Claro que se encuentren al día en el pago de sus servicios.
- Premios: 1 TV Samsung Smart 55" UHD 4K + 01 Mochila OPPO + 01 Portable Bluetooth Mini Speaker Modelo C8 color blanco, para un solo ganador. 
+ Premios: 1 TV Samsung Smart 55" UHD 4K + 01 Mochila OPPO + 01 Portable Bluetooth Mini Speaker Modelo color blanco, para un solo ganador. 
 Conoce las bases de la promoción <a href="https://cl4.ro/bbpagocd" target="_blank">aquí</a></li>
               </ul>
             </div>
