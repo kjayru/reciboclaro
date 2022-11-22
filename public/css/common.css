@@ -9819,10 +9819,15 @@ font-weight: 400;
      color: #283342;
    }
    .section27__align > .phrase1 {
-     font-family: "AMX-Bold";
+     /*font-family: "AMX-Bold";
      font-size: 24px;
      line-height: 40px;
      letter-spacing: -0.02em;
+     color: #283342;
+     margin: 8px 0;*/
+     font-family: "AMX-Bold";
+     font-size: 18px;
+     line-height: 24px;
      color: #283342;
      margin: 8px 0;
    }
@@ -9864,7 +9869,9 @@ font-weight: 400;
         letter-spacing: 0.04em;
       }
       .section27__align > .phrase1 {
-        font-size: 20px;
+        /*font-size: 20px;
+        line-height: 30px;
+        letter-spacing: -0.02em;*/
         line-height: 30px;
         letter-spacing: -0.02em;
       }

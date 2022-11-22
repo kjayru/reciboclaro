@@ -341,7 +341,7 @@ cargo con éxito. El importe máximo a devolver S/ 30*.</small>
         <div class="section27__banner"></div>
       </div>
     </section>-->
-    <section class="section27">
+    <!--<section class="section27">
       <h3 class="section27__title">
         Te devolvemos Hasta 30%* de tu cargo debitado
       </h3>
@@ -353,6 +353,22 @@ cargo con éxito. El importe máximo a devolver S/ 30*.</small>
             Afíliate al débito en las entidades asociadas y luego del primer
             cobro debitado recibe hasta el 30% *de descuento en tu cargo
             fijo
+          </p>
+          <p class="phrase2">*Descuento máximo de S/30</p>
+        </div>
+        <div class="section27__banner"></div>
+      </div>
+    </section>-->
+    <section class="section27">
+      <h3 class="section27__title">
+        Te devolvemos Hasta el 30%* de tu cargo debitado
+      </h3>
+      <div class="section27__main">
+        <div class="section27__align">
+          <span>Descuento en cargo fijo</span>
+          <p class="phrase1">
+            Afíliate al débito automático y recibe hasta 30% de descuento en tu
+            próximo recibo
           </p>
           <p class="phrase2">*Descuento máximo de S/30</p>
         </div>
